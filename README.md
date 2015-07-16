@@ -1,2 +1,7 @@
 # jjUtil
-Some scripts from zhoujj
+
+Some scripts from zhoujj.
+
+** only for reseach use **
+
+
