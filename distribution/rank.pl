@@ -16,8 +16,7 @@ sub usage {
 
         Description of this script.
         Author: zhoujj2013\@gmail.com
-        Usage: $0 <para1> <para2>
-        Example:perl $0 para1 para2
+        Usage: $0 <score_f>
 
 USAGE
 print "$usage";

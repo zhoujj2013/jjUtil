@@ -1,6 +1,12 @@
 args <- commandArgs(TRUE)
 prefix = args[1]
 
+# input data format. per file, per feature
+# 1.20
+# 2.3
+# 5.5
+# ...
+
 #print(args[c(2:length(args))])
 
 pdf(paste(prefix,".boxplot.pdf",sep=""))

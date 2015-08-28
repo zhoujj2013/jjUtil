@@ -1,6 +1,6 @@
 args <- commandArgs(TRUE)
 prefix = args[1]
-
+boxwidth = as.numeric(args[2])
 # http://www.cyclismo.org/tutorial/R/index.html
 # input data format. per file, per feature
 # 1.20
@@ -10,16 +10,28 @@ prefix = args[1]
 
 #print(args[c(2:length(args))])
 
-pdf(paste(prefix,".boxplot.pdf",sep=""))
+#pdf(paste(prefix,".boxplot.pdf",sep=""))
+svg(paste(prefix,".boxplot.svg",sep=""))
 par(mar=c(7,7,7,7))
-color = rainbow(length(args) - 1)
+#color = rainbow(length(args) - 1)
 
 d = data.frame()
+lcolor = c()
+llabels = c()
 
-for (i in 2:length(args)){
-	dat = read.table(args[i],header=F)
-	class = apply(matrix(dat[,1]), 1, function(x) args[i])
-	dat2 = cbind(dat,class)
+for (i in 3:length(args)){
+	arg_element = unlist(strsplit(args[i],"[:]"))
+	
+	file = arg_element[1]
+	llabels = append(llabels, file)
+	
+	column = strtoi(arg_element[2])
+	color = arg_element[3]
+	lcolor = append(lcolor, color)
+	
+	dat = read.table(file=file, header=F)
+	class = apply(matrix(dat[,column]), 1, function(x) i-2)
+	dat2 = cbind(dat[,column],class)
 	colnames(dat2) = c("value","class")
 	d = rbind(d,dat2)
 	#if (i == 2) {
@@ -32,10 +44,18 @@ for (i in 2:length(args)){
 
 #print(d)
 
-boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = "lightgray", cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
+#str(d)
+
+#boxplot(value~class, data=d)
+
+boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
+
+#boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
 axis(1, labels = FALSE)
-labels = apply(matrix(seq(2,length(args))), 1, function(x) args[x])
-text(x =  seq_along(labels), y = par("usr")[3] - 1, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
+labels = apply(matrix(seq(1,length(llabels))), 1, function(x) llabels[x])
+#print(length(llabels))
+#print(labels)
+text(x =  seq_along(labels), y = par("usr")[3] - 10, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
 
 #legend("topright", legend=args[c(2:length(args))], fill=color,cex=1.2)
 dev.off()
