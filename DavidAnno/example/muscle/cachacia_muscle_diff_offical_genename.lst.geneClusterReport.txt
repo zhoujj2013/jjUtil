@@ -1,0 +1,545 @@
+Gene Group 1	Enrichment Score:  11.796466369732563
+ID	Gene Name
+ENSG00000112562	SPARC related modular calcium binding 2
+ENSG00000100336	apolipoprotein L, 4
+ENSG00000050165	dickkopf homolog 3 (Xenopus laevis)
+ENSG00000176845	meteorin, glial cell differentiation regulator-like; similar to meteorin, glial cell differentiation regulator-like
+ENSG00000164932	collagen triple helix repeat containing 1
+ENSG00000143369	extracellular matrix protein 1
+ENSG00000034971	myocilin, trabecular meshwork inducible glucocorticoid response
+ENSG00000107742	sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 2
+ENSG00000106483	secreted frizzled-related protein 4
+ENSG00000167772	angiopoietin-like 4
+ENSG00000132205	elastin microfibril interfacer 2
+ENSG00000070404	follistatin-like 3 (secreted glycoprotein)
+ENSG00000186458	defensin, beta 132
+ENSG00000145708	corticotropin releasing hormone binding protein
+ENSG00000197614	microfibrillar associated protein 5
+ENSG00000179431	four jointed box 1 (Drosophila)
+ENSG00000159167	stanniocalcin 1
+ENSG00000127951	fibrinogen-like 2
+
+Gene Group 2	Enrichment Score:  6.844647234441989
+ID	Gene Name
+ENSG00000101187	solute carrier organic anion transporter family, member 4A1
+ENSG00000183484	G protein-coupled receptor 132
+ENSG00000176597	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5
+ENSG00000206478, ENSG00000137331	immediate early response 3
+ENSG00000168079	scavenger receptor class A, member 5 (putative)
+ENSG00000158470	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 5
+ENSG00000115607	interleukin 18 receptor accessory protein
+ENSG00000137507	leucine rich repeat containing 32
+ENSG00000153707	protein tyrosine phosphatase, receptor type, D
+ENSG00000188706	zinc finger, DHHC-type containing 9
+ENSG00000115255	receptor accessory protein 6
+ENSG00000137809	integrin, alpha 11
+ENSG00000004939	solute carrier family 4, anion exchanger, member 1 (erythrocyte membrane protein band 3, Diego blood group)
+ENSG00000115602	interleukin 1 receptor-like 1
+ENSG00000127533	coagulation factor II (thrombin) receptor-like 3
+ENSG00000163815	C-type lectin domain family 3, member B
+ENSG00000174807	CD248 molecule, endosialin
+ENSG00000161638	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)
+ENSG00000162706	cell adhesion molecule 3
+ENSG00000137491	solute carrier organic anion transporter family, member 2B1
+ENSG00000186431	Fc fragment of IgA, receptor for
+ENSG00000080493	solute carrier family 4, sodium bicarbonate cotransporter, member 4
+ENSG00000163823	chemokine (C-C motif) receptor 1
+ENSG00000188818	zinc finger, DHHC-type containing 11
+ENSG00000182782	niacin receptor 2; niacin receptor 1
+ENSG00000177363	LRRN4 C-terminal like
+ENSG00000148841	inositol 1,4,5-triphosphate receptor interacting protein
+ENSG00000103489	xylosyltransferase I
+ENSG00000160862	alpha-2-glycoprotein 1, zinc-binding pseudogene 1; alpha-2-glycoprotein 1, zinc-binding
+ENSG00000145685	lipoma HMGIC fusion partner-like 2
+ENSG00000054967	RELT tumor necrosis factor receptor
+ENSG00000019169	macrophage receptor with collagenous structure
+ENSG00000134321	radical S-adenosyl methionine domain containing 2
+ENSG00000105609	leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 5
+ENSG00000158458	neuregulin 2
+ENSG00000158270	collectin sub-family member 12
+ENSG00000123610	tumor necrosis factor, alpha-induced protein 6
+ENSG00000104635	solute carrier family 39 (zinc transporter), member 14
+ENSG00000165323	FAT tumor suppressor homolog 3 (Drosophila)
+ENSG00000213088	Duffy blood group, chemokine receptor
+ENSG00000062716	transmembrane protein 49
+ENSG00000154175	ABI family, member 3 (NESH) binding protein
+ENSG00000197405	complement component 5a receptor 1
+ENSG00000158683	polycystic kidney disease 1 like 1
+ENSG00000038945	macrophage scavenger receptor 1
+ENSG00000168140	vasorin
+ENSG00000170961	hyaluronan synthase 2
+ENSG00000154645	chondrolectin
+ENSG00000111452	G protein-coupled receptor 133
+ENSG00000171051	formyl peptide receptor 1
+ENSG00000165272	aquaporin 3 (Gill blood group)
+ENSG00000103257	solute carrier family 7 (cationic amino acid transporter, y+ system), member 5
+ENSG00000139514	solute carrier family 7 (cationic amino acid transporter, y+ system), member 1
+ENSG00000182885	G protein-coupled receptor 97
+ENSG00000075223	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3C
+ENSG00000144136	solute carrier family 20 (phosphate transporter), member 1
+ENSG00000152207	cysteinyl leukotriene receptor 2
+ENSG00000186407	CD300e molecule
+ENSG00000113555	protocadherin 12
+ENSG00000077616	N-acetylated alpha-linked acidic dipeptidase 2
+ENSG00000168398	bradykinin receptor B2
+ENSG00000179820	myeloid-associated differentiation marker
+ENSG00000052749	ribosomal RNA processing 12 homolog (S. cerevisiae)
+ENSG00000134531	epithelial membrane protein 1
+ENSG00000188803	FLJ45455 protein
+ENSG00000132334	protein tyrosine phosphatase, receptor type, E
+ENSG00000173530	tumor necrosis factor receptor superfamily, member 10d, decoy with truncated death domain
+ENSG00000115226	fibronectin type III domain containing 4
+ENSG00000184156	potassium voltage-gated channel, KQT-like subfamily, member 3
+ENSG00000166473	polycystic kidney disease 1-like 2
+ENSG00000134247	prostaglandin F2 receptor negative regulator
+ENSG00000108829	leucine rich repeat containing 59
+ENSG00000113070	heparin-binding EGF-like growth factor
+ENSG00000133800	lymphatic vessel endothelial hyaluronan receptor 1
+ENSG00000119514	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 12 (GalNAc-T12)
+ENSG00000103855	CD276 molecule
+ENSG00000196396	protein tyrosine phosphatase, non-receptor type 1
+ENSG00000196189	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4A
+ENSG00000213694	sphingosine-1-phosphate receptor 3
+ENSG00000115594	interleukin 1 receptor, type I
+ENSG00000188211	hypothetical protein DKFZp686O24166
+ENSG00000142227	epithelial membrane protein 3
+ENSG00000077238	interleukin 4 receptor
+ENSG00000177098	sodium channel, voltage-gated, type IV, beta
+ENSG00000141449	KIAA1772
+ENSG00000168077	scavenger receptor class A, member 3
+ENSG00000101000	protein C receptor, endothelial (EPCR)
+ENSG00000177575	CD163 molecule
+ENSG00000180785	olfactory receptor, family 51, subfamily E, member 1
+ENSG00000167680	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6B
+ENSG00000122863	carbohydrate (chondroitin 6) sulfotransferase 3
+ENSG00000178726	thrombomodulin
+ENSG00000133874	ring finger protein 122
+ENSG00000136160	endothelin receptor type B
+ENSG00000128917	delta-like 4 (Drosophila)
+ENSG00000154864	family with sequence similarity 38, member B
+ENSG00000123146	CD97 molecule
+ENSG00000177464	G protein-coupled receptor 4
+ENSG00000198121	lysophosphatidic acid receptor 1
+ENSG00000105509	hyaluronan synthase 1
+ENSG00000131873	chondroitin sulfate synthase 1
+ENSG00000198502	major histocompatibility complex, class II, DR beta 5
+ENSG00000115590	interleukin 1 receptor, type II
+ENSG00000168389	major facilitator superfamily domain containing 2
+ENSG00000166979	chromosome 21 open reading frame 63
+ENSG00000132563	receptor accessory protein 2
+ENSG00000059804	solute carrier family 2 (facilitated glucose transporter), member 3
+ENSG00000136295	tweety homolog 3 (Drosophila)
+ENSG00000145623	oncostatin M receptor
+ENSG00000033867	solute carrier family 4, sodium bicarbonate cotransporter, member 7
+ENSG00000187116	leukocyte immunoglobulin-like receptor, subfamily A (with TM domain), member 5
+ENSG00000117479	solute carrier family 19 (thiamine transporter), member 2
+ENSG00000165810	butyrophilin-like 9
+ENSG00000144476	chemokine (C-X-C motif) receptor 7
+ENSG00000013588	G protein-coupled receptor, family C, group 5, member A
+ENSG00000074410	carbonic anhydrase XII
+
+Gene Group 3	Enrichment Score:  4.477526673870534
+ID	Gene Name
+ENSG00000113296	thrombospondin 4
+ENSG00000090006	latent transforming growth factor beta binding protein 4
+ENSG00000038427	versican
+ENSG00000174807	CD248 molecule, endosialin
+
+Gene Group 4	Enrichment Score:  4.109392366008723
+ID	Gene Name
+ENSG00000173432	serum amyloid A1
+ENSG00000137077	chemokine (C-C motif) ligand 21
+ENSG00000181374	chemokine (C-C motif) ligand 13
+ENSG00000081041	chemokine (C-X-C motif) ligand 2
+ENSG00000108691	chemokine (C-C motif) ligand 2
+
+Gene Group 5	Enrichment Score:  4.062319895345667
+ID	Gene Name
+ENSG00000149090	peptidase domain containing associated with muscle regeneration 1
+ENSG00000204983	protease, serine, 1 (trypsin 1); trypsinogen C
+ENSG00000122861	plasminogen activator, urokinase
+
+Gene Group 6	Enrichment Score:  3.9373648590529045
+ID	Gene Name
+ENSG00000168140	vasorin
+ENSG00000137507	leucine rich repeat containing 32
+ENSG00000139329	lumican
+ENSG00000170458	CD14 molecule
+ENSG00000171236	leucine-rich alpha-2-glycoprotein 1
+
+Gene Group 7	Enrichment Score:  3.8734342337220773
+ID	Gene Name
+ENSG00000142871	cysteine-rich, angiogenic inducer, 61
+ENSG00000118523	connective tissue growth factor
+ENSG00000156427	fibroblast growth factor 18
+ENSG00000064205	WNT1 inducible signaling pathway protein 2
+
+Gene Group 8	Enrichment Score:  3.802714385018851
+ID	Gene Name
+ENSG00000120885	clusterin
+ENSG00000204359	complement factor B
+ENSG00000203710	complement component (3b/4b) receptor 1 (Knops blood group)
+ENSG00000196352	CD55 molecule, decay accelerating factor for complement (Cromer blood group)
+
+Gene Group 9	Enrichment Score:  3.798882012549344
+ID	Gene Name
+ENSG00000087245	matrix metallopeptidase 2 (gelatinase A, 72kDa gelatinase, 72kDa type IV collagenase)
+ENSG00000163638	ADAM metallopeptidase with thrombospondin type 1 motif, 9
+ENSG00000123342	matrix metallopeptidase 19
+ENSG00000100985	matrix metallopeptidase 9 (gelatinase B, 92kDa gelatinase, 92kDa type IV collagenase)
+ENSG00000158859	ADAM metallopeptidase with thrombospondin type 1 motif, 4
+ENSG00000166106	ADAM metallopeptidase with thrombospondin type 1 motif, 15
+ENSG00000154734	ADAM metallopeptidase with thrombospondin type 1 motif, 1
+
+Gene Group 10	Enrichment Score:  3.438716800654768
+ID	Gene Name
+ENSG00000006327	tumor necrosis factor receptor superfamily, member 12A
+ENSG00000065320	netrin 1
+ENSG00000140538	neurotrophic tyrosine kinase, receptor, type 3
+
+Gene Group 11	Enrichment Score:  2.3145631977191057
+ID	Gene Name
+ENSG00000166825	alanyl (membrane) aminopeptidase
+ENSG00000122121	X-prolyl aminopeptidase (aminopeptidase P) 2, membrane-bound
+ENSG00000077616	N-acetylated alpha-linked acidic dipeptidase 2
+
+Gene Group 12	Enrichment Score:  2.2711294988317348
+ID	Gene Name
+ENSG00000041982	tenascin C
+ENSG00000164318	EGF-like, fibronectin type III and laminin G domains
+
+Gene Group 13	Enrichment Score:  2.069814434978847
+ID	Gene Name
+ENSG00000112977	death-associated protein
+ENSG00000139289	pleckstrin homology-like domain, family A, member 1
+ENSG00000206478, ENSG00000137331	immediate early response 3
+ENSG00000112378	PERP, TP53 apoptosis effector
+ENSG00000151929	BCL2-associated athanogene 3
+ENSG00000173530	tumor necrosis factor receptor superfamily, member 10d, decoy with truncated death domain
+ENSG00000181026	apoptosis enhancing nuclease
+
+Gene Group 14	Enrichment Score:  2.0220075677156912
+ID	Gene Name
+ENSG00000196843	AT rich interactive domain 5A (MRF1-like)
+ENSG00000087903	regulatory factor X, 2 (influences HLA class II expression)
+ENSG00000075426	FOS-like antigen 2
+ENSG00000156127	basic leucine zipper transcription factor, ATF-like
+ENSG00000196428	TSC22 domain family, member 2
+ENSG00000182158	cAMP responsive element binding protein 3-like 2
+ENSG00000132326	period homolog 2 (Drosophila)
+ENSG00000123685	basic leucine zipper transcription factor, ATF-like 3
+ENSG00000134107	basic helix-loop-helix family, member e40
+ENSG00000124440	hypoxia inducible factor 3, alpha subunit
+ENSG00000171223	jun B proto-oncogene
+ENSG00000130522	jun D proto-oncogene
+ENSG00000104856	v-rel reticuloendotheliosis viral oncogene homolog B
+ENSG00000162772	activating transcription factor 3
+ENSG00000151014	CCR4 carbon catabolite repression 4-like (S. cerevisiae)
+ENSG00000185022	v-maf musculoaponeurotic fibrosarcoma oncogene homolog F (avian)
+ENSG00000165030	nuclear factor, interleukin 3 regulated
+ENSG00000146592	cAMP responsive element binding protein 5
+ENSG00000221869	CCAAT/enhancer binding protein (C/EBP), delta
+
+Gene Group 15	Enrichment Score:  2.013885480401488
+ID	Gene Name
+ENSG00000181856	solute carrier family 2 (facilitated glucose transporter), member 4
+ENSG00000117394	solute carrier family 2 (facilitated glucose transporter), member 1
+ENSG00000059804	solute carrier family 2 (facilitated glucose transporter), member 3
+
+Gene Group 16	Enrichment Score:  1.7992427514032565
+ID	Gene Name
+ENSG00000152785	bone morphogenetic protein 3
+ENSG00000128342	leukemia inhibitory factor (cholinergic differentiation factor)
+
+Gene Group 17	Enrichment Score:  1.447772106268534
+ID	Gene Name
+ENSG00000130164	low density lipoprotein receptor
+ENSG00000084674	apolipoprotein B (including Ag(x) antigen)
+
+Gene Group 18	Enrichment Score:  1.3767497105449316
+ID	Gene Name
+ENSG00000163874	zinc finger CCCH-type containing 12A
+ENSG00000107338	Src homology 2 domain containing adaptor protein B
+
+Gene Group 19	Enrichment Score:  1.3416058333981802
+ID	Gene Name
+ENSG00000163687	deoxyribonuclease I-like 3
+ENSG00000099954	cat eye syndrome chromosome region, candidate 2
+
+Gene Group 20	Enrichment Score:  1.2654596298740184
+ID	Gene Name
+ENSG00000116717	growth arrest and DNA-damage-inducible, alpha
+ENSG00000099860	growth arrest and DNA-damage-inducible, beta
+
+Gene Group 21	Enrichment Score:  1.2087749871032891
+ID	Gene Name
+ENSG00000155307	SAM domain, SH3 domain and nuclear localization signals 1
+ENSG00000154127	ubiquitin associated and SH3 domain containing, B
+ENSG00000155926	Src-like-adaptor
+
+Gene Group 22	Enrichment Score:  1.1134987373670857
+ID	Gene Name
+ENSG00000124762	cyclin-dependent kinase inhibitor 1A (p21, Cip1)
+ENSG00000111276	cyclin-dependent kinase inhibitor 1B (p27, Kip1)
+
+Gene Group 23	Enrichment Score:  1.0886571597278119
+ID	Gene Name
+ENSG00000143333	regulator of G-protein signaling 16
+ENSG00000138835	regulator of G-protein signaling 3
+
+Gene Group 24	Enrichment Score:  0.9975214028164455
+ID	Gene Name
+ENSG00000138135	cholesterol 25-hydroxylase
+ENSG00000124212	prostaglandin I2 (prostacyclin) synthase
+ENSG00000149485	fatty acid desaturase 1
+
+Gene Group 25	Enrichment Score:  0.994807791530985
+ID	Gene Name
+ENSG00000111713	glycogen synthase 2 (liver)
+ENSG00000056998	glycogenin 2
+
+Gene Group 26	Enrichment Score:  0.9707279066863388
+ID	Gene Name
+ENSG00000118971	cyclin D2
+ENSG00000110092	cyclin D1
+
+Gene Group 27	Enrichment Score:  0.9658303793328452
+ID	Gene Name
+ENSG00000082397	erythrocyte membrane protein band 4.1-like 3
+ENSG00000068137	pleckstrin homology domain containing, family H (with MyTH4 domain) member 3
+
+Gene Group 28	Enrichment Score:  0.9650089547247549
+ID	Gene Name
+ENSG00000184545	dual specificity phosphatase 8
+ENSG00000138166	dual specificity phosphatase 5
+
+Gene Group 29	Enrichment Score:  0.9644942935843426
+ID	Gene Name
+ENSG00000115963	Rho family GTPase 3
+ENSG00000122644	ADP-ribosylation factor-like 4A
+ENSG00000108551	RAS, dexamethasone-induced 1
+ENSG00000188042	ADP-ribosylation factor-like 4C
+ENSG00000116574	ras homolog gene family, member U
+ENSG00000111859	neural precursor cell expressed, developmentally down-regulated 9
+
+Gene Group 30	Enrichment Score:  0.9602401175532581
+ID	Gene Name
+ENSG00000148154	UDP-glucose ceramide glucosyltransferase
+ENSG00000164023	sphingomyelin synthase 2
+
+Gene Group 31	Enrichment Score:  0.8773017910926849
+ID	Gene Name
+ENSG00000138678	1-acylglycerol-3-phosphate O-acyltransferase 9
+ENSG00000133027	phosphatidylethanolamine N-methyltransferase
+
+Gene Group 32	Enrichment Score:  0.8695445167855427
+ID	Gene Name
+ENSG00000134548	chromosome 12 open reading frame 39
+ENSG00000075426	FOS-like antigen 2
+ENSG00000117143	UDP-N-acteylglucosamine pyrophosphorylase 1
+ENSG00000048162	NOP16 nucleolar protein homolog (yeast)
+ENSG00000115946	partner of NOB1 homolog (S. cerevisiae)
+ENSG00000163811	WD repeat domain 43
+ENSG00000135763	URB2 ribosome biogenesis 2 homolog (S. cerevisiae)
+ENSG00000052749	ribosomal RNA processing 12 homolog (S. cerevisiae)
+ENSG00000167470	midnolin
+
+Gene Group 33	Enrichment Score:  0.8167091265160916
+ID	Gene Name
+ENSG00000167553	tubulin, alpha 1c
+ENSG00000198211	tubulin, beta 3; melanocortin 1 receptor (alpha melanocyte stimulating hormone receptor)
+ENSG00000137267	tubulin, beta 2A
+ENSG00000171368	tubulin polymerization promoting protein
+
+Gene Group 34	Enrichment Score:  0.8021400521753337
+ID	Gene Name
+ENSG00000123358	nuclear receptor subfamily 4, group A, member 1
+ENSG00000131196	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1
+ENSG00000159216	runt-related transcription factor 1
+ENSG00000175592	FOS-like antigen 1
+ENSG00000153234	nuclear receptor subfamily 4, group A, member 2
+ENSG00000136826	Kruppel-like factor 4 (gut)
+ENSG00000144655	cysteine-serine-rich nuclear protein 1
+ENSG00000101096	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2
+ENSG00000171223	jun B proto-oncogene
+ENSG00000157557	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)
+ENSG00000155846	peroxisome proliferator-activated receptor gamma, coactivator 1 beta
+ENSG00000119508	nuclear receptor subfamily 4, group A, member 3
+ENSG00000146592	cAMP responsive element binding protein 5
+
+Gene Group 35	Enrichment Score:  0.7770819848701538
+ID	Gene Name
+ENSG00000142634	EF-hand domain family, member D2
+ENSG00000197747	S100 calcium binding protein A10
+ENSG00000163221	S100 calcium binding protein A12
+ENSG00000196154	S100 calcium binding protein A4
+ENSG00000157782	calcium binding protein 1
+
+Gene Group 36	Enrichment Score:  0.7690392170349681
+ID	Gene Name
+ENSG00000149798	CDC42 effector protein (Rho GTPase binding) 2
+ENSG00000179604	CDC42 effector protein (Rho GTPase binding) 4
+
+Gene Group 37	Enrichment Score:  0.7059162409158732
+ID	Gene Name
+ENSG00000185015	carbonic anhydrase XIII
+ENSG00000074410	carbonic anhydrase XII
+ENSG00000164879	carbonic anhydrase III, muscle specific
+
+Gene Group 38	Enrichment Score:  0.6554804373171912
+ID	Gene Name
+ENSG00000186832	keratin 16; keratin type 16-like
+ENSG00000160789	lamin A/C
+ENSG00000170421	keratin 8 pseudogene 9; similar to keratin 8; keratin 8
+ENSG00000131095	glial fibrillary acidic protein
+
+Gene Group 39	Enrichment Score:  0.6402933105618797
+ID	Gene Name
+ENSG00000131504	diaphanous homolog 1 (Drosophila)
+ENSG00000007237	growth arrest-specific 7
+
+Gene Group 40	Enrichment Score:  0.5713568641739099
+ID	Gene Name
+ENSG00000105835	nicotinamide phosphoribosyltransferase
+ENSG00000198805	nucleoside phosphorylase
+
+Gene Group 41	Enrichment Score:  0.5668043661648807
+ID	Gene Name
+ENSG00000106511	mesenchyme homeobox 2
+ENSG00000167034	NK3 homeobox 1
+ENSG00000108511	homeobox B6
+ENSG00000156127	basic leucine zipper transcription factor, ATF-like
+ENSG00000185022	v-maf musculoaponeurotic fibrosarcoma oncogene homolog F (avian)
+ENSG00000143816	wingless-type MMTV integration site family, member 9A
+ENSG00000167157	paired related homeobox 2
+ENSG00000163132	msh homeobox 1
+
+Gene Group 42	Enrichment Score:  0.5433323722746454
+ID	Gene Name
+ENSG00000186472	piccolo (presynaptic cytomatrix protein)
+ENSG00000102362	synaptotagmin-like 4
+
+Gene Group 43	Enrichment Score:  0.5345742125870329
+ID	Gene Name
+ENSG00000042493	capping protein (actin filament), gelsolin-like
+ENSG00000070182	spectrin, beta, erythrocytic
+
+Gene Group 44	Enrichment Score:  0.4988671243881688
+ID	Gene Name
+ENSG00000165732	DEAD (Asp-Glu-Ala-Asp) box polypeptide 21
+ENSG00000166483	WEE1 homolog (S. pombe)
+ENSG00000148773	antigen identified by monoclonal antibody Ki-67
+ENSG00000166197	nucleolar and coiled-body phosphoprotein 1
+
+Gene Group 45	Enrichment Score:  0.4650599393362694
+ID	Gene Name
+ENSG00000166401	serpin peptidase inhibitor, clade B (ovalbumin), member 8
+ENSG00000021355	serpin peptidase inhibitor, clade B (ovalbumin), member 1
+
+Gene Group 46	Enrichment Score:  0.4367356117251357
+ID	Gene Name
+ENSG00000105656	elongation factor RNA polymerase II
+ENSG00000163660	cyclin L1
+
+Gene Group 47	Enrichment Score:  0.36247895481376796
+ID	Gene Name
+ENSG00000154277	ubiquitin carboxyl-terminal esterase L1 (ubiquitin thiolesterase)
+ENSG00000118503	tumor necrosis factor, alpha-induced protein 3
+ENSG00000114374	ubiquitin specific peptidase 9, Y-linked
+ENSG00000036672	ubiquitin specific peptidase 2
+
+Gene Group 48	Enrichment Score:  0.3567709919152891
+ID	Gene Name
+ENSG00000182481	karyopherin alpha 2 (RAG cohort 1, importin alpha 1); karyopherin alpha-2 subunit like
+ENSG00000132661	NTF2-like export factor 1
+
+Gene Group 49	Enrichment Score:  0.31894226958414873
+ID	Gene Name
+ENSG00000143067	hypothetical LOC100130667; zinc finger protein 697
+ENSG00000123358	nuclear receptor subfamily 4, group A, member 1
+ENSG00000159216	runt-related transcription factor 1
+ENSG00000173276	zinc finger protein 295
+ENSG00000146592	cAMP responsive element binding protein 5
+ENSG00000111424	vitamin D (1,25- dihydroxyvitamin D3) receptor
+ENSG00000130844	zinc finger protein 331
+ENSG00000179388	early growth response 3
+ENSG00000178175	zinc finger protein 366
+
+Gene Group 50	Enrichment Score:  0.2848489050323043
+ID	Gene Name
+ENSG00000166483	WEE1 homolog (S. pombe)
+ENSG00000142178	salt-inducible kinase 1
+ENSG00000099725	protein kinase, Y-linked
+ENSG00000173846	polo-like kinase 3 (Drosophila)
+ENSG00000168032	ectonucleoside triphosphate diphosphohydrolase 3
+ENSG00000168237	glycerate kinase
+ENSG00000034152	mitogen-activated protein kinase kinase 3
+ENSG00000143322	v-abl Abelson murine leukemia viral oncogene homolog 2 (arg, Abelson-related gene)
+ENSG00000114739	activin A receptor, type IIB
+ENSG00000132622	heat shock 70kD protein 12B
+ENSG00000166165	creatine kinase, brain
+ENSG00000137193	pim-1 oncogene
+ENSG00000107968	mitogen-activated protein kinase kinase kinase 8
+ENSG00000154930	acyl-CoA synthetase short-chain family member 1
+ENSG00000140284	solute carrier family 27 (fatty acid transporter), member 2
+ENSG00000086544	inositol 1,4,5-trisphosphate 3-kinase C
+ENSG00000176170	sphingosine kinase 1
+ENSG00000069956	mitogen-activated protein kinase 6
+ENSG00000067057	phosphofructokinase, platelet
+ENSG00000067048	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, Y-linked
+ENSG00000173334	tribbles homolog 1 (Drosophila)
+ENSG00000097007	c-abl oncogene 1, receptor tyrosine kinase
+
+Gene Group 51	Enrichment Score:  0.2739825182895612
+ID	Gene Name
+ENSG00000175556	LON peptidase N-terminal domain and ring finger 3
+ENSG00000183878	ubiquitously transcribed tetratricopeptide repeat gene, Y-linked
+ENSG00000125089	SH3 domain and tetratricopeptide repeats 1
+ENSG00000185745	interferon-induced protein with tetratricopeptide repeats 1
+
+Gene Group 52	Enrichment Score:  0.2727645175056204
+ID	Gene Name
+ENSG00000185015	carbonic anhydrase XIII
+ENSG00000124588	NAD(P)H dehydrogenase, quinone 2
+ENSG00000154553	PDZ and LIM domain 3
+ENSG00000187193	metallothionein 1X
+ENSG00000169715	metallothionein 1L (gene/pseudogene); metallothionein 1E; metallothionein 1 pseudogene 3; metallothionein 1J (pseudogene)
+ENSG00000165966	PDZ domain containing ring finger 4
+ENSG00000188818	zinc finger, DHHC-type containing 11
+ENSG00000175556	LON peptidase N-terminal domain and ring finger 3
+ENSG00000125148	metallothionein 2A
+ENSG00000213145	cysteine-rich protein 1 (intestinal)
+ENSG00000141576	ring finger protein 157
+ENSG00000132530	XIAP associated factor 1
+ENSG00000205362	metallothionein 1A
+ENSG00000131435	PDZ and LIM domain 4
+ENSG00000205364	metallothionein 1M
+ENSG00000107438	PDZ and LIM domain 1
+ENSG00000072201	ligand of numb-protein X 1
+ENSG00000101695	ring finger protein 125
+ENSG00000133874	ring finger protein 122
+
+Gene Group 53	Enrichment Score:  0.26000038587229823
+ID	Gene Name
+ENSG00000196843	AT rich interactive domain 5A (MRF1-like)
+ENSG00000134107	basic helix-loop-helix family, member e40
+ENSG00000064932	strawberry notch homolog 2 (Drosophila)
+ENSG00000132510	lysine (K)-specific demethylase 6B
+ENSG00000163132	msh homeobox 1
+
+Gene Group 54	Enrichment Score:  0.22434744319052377
+ID	Gene Name
+ENSG00000165732	DEAD (Asp-Glu-Ala-Asp) box polypeptide 21
+ENSG00000067048	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, Y-linked
+ENSG00000153922	chromodomain helicase DNA binding protein 1
+
+Gene Group 55	Enrichment Score:  0.18286074128609534
+ID	Gene Name
+ENSG00000100033	proline dehydrogenase (oxidase) 1
+ENSG00000161267	3-hydroxybutyrate dehydrogenase, type 1
+ENSG00000166816	lactate dehydrogenase D
+
+Gene Group 56	Enrichment Score:  0.16790040435912496
+ID	Gene Name
+ENSG00000145780	fem-1 homolog c (C. elegans)
+ENSG00000206560	ankyrin repeat domain 28
