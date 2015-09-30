@@ -1,0 +1,1 @@
+Rscript /x400ifs-accel/zhoujj/github/jjUtil/compareDisRNAseq/MultiBoxplotNoOutline.r SEvsTE 0.5 ASCs.SE.ProxGene.expr:6:orangered ASCs.TE.ProxGene.expr:6:darkgreen MB.SE.ProxGene.expr:9:orangered MB.TE.ProxGene.expr:9:darkgreen ESCs.SE.ProxGene.expr:11:orangered ESCs.TE.ProxGene.expr:11:darkgreen

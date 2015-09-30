@@ -1,0 +1,16 @@
+Find the innate structure of gene expression data by clustering genes and/or samples.
+
+Click the desired algorithm
+
+Hierarchical clustering (Eisen et al., 1998) groups elements based on how close they are to one another. The result is a tree structure, referred to as dendrogram. This is a common and valuable approach; however, it is highly sensitive to the measurement used to assess distance and requires you to define clusters subjectively based on the dendogram (Brunet et al., 2004).
+K-means clustering (MacQueen, 1967) groups elements into a specified number of clusters, which can be useful when you know or suspect the number of clusters in the data. The algorithm randomly selects a center data point for k clusters and assigns each data point to the nearest cluster center. Iteratively, it recalculates a new center data point for each cluster based on the mean value of its members and reassigns all data points to the closest cluster center until the distance between consecutive cluster centers converges into k stable clusters.
+Non-negative matrix factorization (NMF) (Brunet et al., 2004) clusters the data by breaking it down into metagenes or metasamples, each of which represents a group of genes or samples, respectively. NMF extracts features that may more accurately correspond to biological processes.
+References
+
+Brunet, J-P., Tamayo, P., Golub, T.R., and Mesirov, J.P. 2004. Metagenes and molecular pattern discovery using matrix factorization. Proc. Natl. Acad. Sci. USA 101(12):4164-4169.
+
+Eisen, M.B., Spellman, P.T., Brown, P.O., and Botstein, D. 1998. Cluster Analysis and Display of Genome-Wide Expression Patterns. Proc. Natl. Acad. Sci. USA 95:14863-14868.
+
+MacQueen, J. B. 1967. Some Methods for classification and Analysis of Multivariate Observations. In Proceedings of Fifth Berkeley Symposium on Mathematical Statistics and Probability, Vol. 1. University of California Press, California. pp. 281-297.
+
+

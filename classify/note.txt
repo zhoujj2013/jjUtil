@@ -1,0 +1,27 @@
+Class Prediction
+protocols
+Using a data set that contains known samples, create a model (also referred to as a class predictor or classifier) that can be used to predict the class of a previously unknown sample.
+
+Click the desired algorithm
+
+CART (Breiman et al., 1984) builds Classification And Regression Trees. It works by recursively splitting the feature space into a set of non-overlapping regions and then predicting the most likely value of the dependent variable within each region. A classification (or regression) tree represents the set of nested if-then conditions used to predict a categorical dependent (or continuous dependent) variable based on the observed values of the feature variables. CART is vulnerable to overfitting and therefore not commonly used with microarray data.
+K-nearest-neighbors (KNN) classifies an unknown sample by assigning it the phenotype label most frequently represented among the k nearest known samples (Golub and Slonim et al., 1999). In GenePattern, an analyst can select a weighting factor for the 'votes' of the nearest neighbors. For example, one might weight the votes by the reciprocal of the distance between neighbors.
+Probabilistic Neural Network (PNN) calculates the probability that an unknown sample belongs to a given set of known phenotype classes (Lu et al., 2005; Specht, 1990). The contribution of each known sample to the phenotype class of the unknown sample follows a Gaussian distribution. PNN can be considered as a Gaussian-weighted KNN classifier - known samples close to the unknown sample have a greater influence on the predicted class of the unknown sample. 
+
+PNN is not on the GenePattern public server. The PNN modules require the Windows operating system. To use PNN, install the GenePattern server and the PNN modules on a Windows machine.
+Support Vector Machines (SVM) is designed for multiple class classification (Rifkin et al., 2003). The algorithm creates a binary SVM classifier for each class by computing a maximal margin hyperplane that separates the given class from all other classes; that is, the hyperplane with maximal distance to the nearest data point. The binary classifiers are then combined into a multiclass classfier. For an unknown sample, the assigned class is the one with the largest margin.
+Weighted Voting (Slonim et al., 2000) classifies an unknown sample using a simple weighted voting scheme. Each gene in the classifier 'votes' for the phenotype class of the unknown sample. A gene's vote is weighted by how closely its expression correlates with the differentiation between phenotype classes in the training data set.
+References
+
+Breiman, L., Friedman, J. H., Olshen, R. A., & Stone, C. J. 1984. Classification and regression trees. Wadsworth & Brooks/Cole Advanced Books & Software, Monterey, CA.
+
+Golub, T.R., Slonim, D.K., Tamayo, P., Huard, C., Gaasenbeek, M., Mesirov, J.P., Coller, H., Loh, M., Downing, J.R., Caligiuri, M.A., Bloomfield, C.D., and Lander, E.S. 1999. Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression. Science 286:531-537.
+
+Lu, J., Getz, G., Miska, E.A., Alvarez-Saavedra, E., Lamb, J., Peck, D., Sweet-Cordero, A., Ebert, B.L., Mak, R.H., Ferrando, A.A, Downing, J.R., Jacks, T., Horvitz, H.R., Golub, T.R. 2005. MicroRNA expression profiles classify human cancers. Nature 435:834-838.
+
+Rifkin, R., Mukherjee, S., Tamayo, P., Ramaswamy, S., Yeang, C-H, Angelo, M., Reich, M., Poggio, T., Lander, E.S., Golub, T.R., Mesirov, J.P. 2003. An Analytical Method for Multiclass Molecular Cancer Classification. SIAM Review 45(4):706-723.
+
+Slonim, D.K., Tamayo, P., Mesirov, J.P., Golub, T.R., Lander, E.S. 2000. Class prediction and discovery using gene expression data. In Proceedings of the Fourth Annual International Conference on Computational Molecular Biology (RECOMB). ACM Press, New York. pp. 263-272.
+
+Specht, D. F. 1990. Probabilistic Neural Networks. Neural Networks 3(1):109-118. Elsevier Science Ltd., St. Louis.
+
