@@ -3,6 +3,23 @@
 use strict;
 use FindBin qw($Bin $Script);
 
+&usage if @ARGV<5;
+
+#open IN,"" ||die "Can't open the file:$\n";
+#open OUT,"" ||die "Can't open the file:$\n";
+
+sub usage {
+        my $usage = << "USAGE";
+
+        Fish edges by gene list.
+        Author: zhoujj2013\@gmail.com
+        Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct prefix
+
+USAGE
+print "$usage";
+exit(1);
+};
+
 my ($genelist_f, $edgelist_f, $genelist_col, $edgelist_col, $direct, $prefix) = @ARGV;
 
 my @edgelist_col = split /,/,$edgelist_col;

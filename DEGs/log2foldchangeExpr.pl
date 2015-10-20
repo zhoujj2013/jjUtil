@@ -1,6 +1,27 @@
 #!/usr/bin/perl -w
 
 use strict;
+use Getopt::Long;
+use FindBin qw($Bin $Script);
+use File::Basename qw(basename dirname);
+use Data::Dumper;
+
+&usage if @ARGV<1;
+
+#open IN,"" ||die "Can't open the file:$\n";
+#open OUT,"" ||die "Can't open the file:$\n";
+
+sub usage {
+        my $usage = << "USAGE";
+
+        Calculate log2(foldchange) for genes.
+        Author: zhoujj2013\@gmail.com
+        Usage: $0 <expr.table> <col to compare, eg. 2,3> <h|nh|null>
+
+USAGE
+print "$usage";
+exit(1);
+};
 
 my $f = shift;
 my $cstr = shift;

@@ -55,4 +55,6 @@ pdf(paste(prefix,".heatmap.pdf",sep=""))
 hmcols = colorRampPalette(c("blue", "white", "red"))(100)
 pheatmap( m1, cluster_rows = T, cluster_cols = T, col= hmcols, legend=T, show_rownames=TRUE, fontsize = 12, border_color="black", show_colnames=TRUE)
 
+# plan 2 non clustering
+
 dev.off()

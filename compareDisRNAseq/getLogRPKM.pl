@@ -58,6 +58,8 @@ foreach(@ARGV){
 	
 	`bedtools coverage -abam $bamf -b $prefix.extend.bed > $prefix.$bname.cov`;
 
+	# output format
+	# chrom start end id featureB_num A_cover_length A_length A_cover_fraction
 	open IN,"$prefix.$bname.cov" || die $!;
 	open OUT,">","$prefix.$bname.cov.rpkm" || die $!;
 	while(<IN>){

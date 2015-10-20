@@ -5,7 +5,7 @@ import re
 from scipy import stats
 
 def usage():
-	print '\n\tt-test for tow gene groups.'
+	print '\n\tt-test for tow gene groups. Sample size for each phenotype should greater than 3.'
 	print '\tAuthor: zhoujj2013@gmail.com'
 	print '\tUsage: '+sys.argv[0]+' <group1 file> <group2 file>'
 	print '\n\tFile format:'
