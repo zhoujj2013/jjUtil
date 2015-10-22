@@ -63,7 +63,7 @@ if __name__ == "__main__":
 	plt.colorbar()
 	plt.ylabel('True label')
 	plt.xlabel('Predicted label')
-	#plt.show()
+	plt.show()
 	
 	from sklearn.metrics import accuracy_score
 	print 'Accuracy:', accuracy_score(y_test, y_pred)
@@ -98,7 +98,5 @@ if __name__ == "__main__":
 	plt.ylim([0.0, 1.0])
 	plt.ylabel('Recall')
 	plt.xlabel('Fall-out')
-	#plt.show()
-	
-	
+	plt.show()
 	
