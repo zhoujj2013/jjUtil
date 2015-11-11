@@ -3,6 +3,8 @@ prefix = args[1]
 blog = args[4]
 blabel = args[5]
 
+library(gplots)
+
 arg_element1 = unlist(strsplit(args[2],"[:]"))
 file1 = arg_element1[1]
 column1 = strtoi(arg_element1[2])
@@ -28,6 +30,7 @@ plot(x,y,xlab="x",ylab="y",col="black",cex=1,cex.axis=2,cex.lab=2, xlim=c(0,5), 
 abline(0, 1, col="red", lty=2)
 
 if (blabel == "y"){
+	#textplot(x, y, names)
 	text(x, y, names, cex=0.9, pos=4, col="red")
 }
 
