@@ -26,7 +26,7 @@ my $node_f = shift;
 my @node;
 
 if($node_f =~ /,/){
-	@node = split /,/;
+	@node = split /,/,$node_f;
 }elsif(-e "$node_f"){
 	my $node_lst = abs_path($node_f);
 	open IN,"$node_lst" || die $!;

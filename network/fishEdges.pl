@@ -14,6 +14,7 @@ sub usage {
         Fish edges by gene list.
         Author: zhoujj2013\@gmail.com
         Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct prefix
+        perl $0 genelist_f edgelist_f 1 2,3 both test
 
 USAGE
 print "$usage";
