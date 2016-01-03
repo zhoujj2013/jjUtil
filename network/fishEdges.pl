@@ -13,7 +13,7 @@ sub usage {
 
         Fish edges by gene list.
         Author: zhoujj2013\@gmail.com
-        Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct prefix
+        Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct[forward/reverse/both] prefix
 
 USAGE
 print "$usage";
