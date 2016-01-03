@@ -13,7 +13,12 @@ sub usage {
 
         Fish edges by gene list.
         Author: zhoujj2013\@gmail.com
+<<<<<<< HEAD
         Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct[forward/reverse/both] prefix
+=======
+        Usage: $0 genelist_f edgelist_f genelist_col edgelist_col direct prefix
+        perl $0 genelist_f edgelist_f 1 2,3 both test
+>>>>>>> 218f7112ff05d7344021be1ed88771827d98bbd6
 
 USAGE
 print "$usage";
@@ -24,9 +29,9 @@ my ($genelist_f, $edgelist_f, $genelist_col, $edgelist_col, $direct, $prefix) = 
 
 my @edgelist_col = split /,/,$edgelist_col;
 
-$genelist_col = $genelist_col-1;
-$edgelist_col[0] = $edgelist_col[0]-1;
-$edgelist_col[1] = $edgelist_col[1]-1;
+#$genelist_col = $genelist_col-1;
+#$edgelist_col[0] = $edgelist_col[0]-1;
+#$edgelist_col[1] = $edgelist_col[1]-1;
 
 ###
 if($direct eq "forward"){

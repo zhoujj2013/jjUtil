@@ -84,6 +84,11 @@ if __name__ == "__main__":
 	
 	predictions = classifier.predict_proba(X_test)
 	y_test = np.array([int(i) for i in y_test])
+	
+	#for i in predictions:
+	#	print i
+	#print predictions[:, 1]
+	
 	false_positive_rate, recall, thresholds = roc_curve(y_test, predictions[:, 1])
 	roc_auc = auc(false_positive_rate, recall)
 	
