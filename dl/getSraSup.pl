@@ -16,10 +16,9 @@ use Data::Dumper;
 sub usage {
         my $usage = << "USAGE";
 
-        Description of this script.
+        Get sra and sup files by gsm id from GEO.
         Author: zhoujj2013\@gmail.com
-        Usage: $0 <para1> <para2>
-        Example:perl $0 para1 para2
+        Usage: $0 <gsm1> <gsm2> ...
 
 USAGE
 print "$usage";
