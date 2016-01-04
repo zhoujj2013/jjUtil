@@ -10,6 +10,7 @@ use File::Basename qw(basename dirname);
 my $soap = SOAP::Lite
      -> uri('http://service.session.sample')
      -> proxy('http://david.abcc.ncifcrf.gov/webservice/services/DAVIDWebService',
+               ssl_opts => [ SSL_verify_mode => 'SSL_VERIFY_NONE' ],
                 cookie_jar => HTTP::Cookies->new(ignore_discard=>1));
 
 #user authentication by email address

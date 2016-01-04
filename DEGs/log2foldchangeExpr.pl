@@ -37,7 +37,8 @@ open IN,"$f" || die $!;
 
 if($h eq "h"){
 	my $header = <IN>;
-	print $header;
+	chomp($header);
+	print "$header\tLog2(FoldChange)\n";
 }
 
 while(<IN>){

@@ -2,10 +2,13 @@
 use strict;
 use warnings;
 
+
 use SOAP::Lite;
 use HTTP::Cookies;
 use Data::Dumper;
 use File::Basename qw(basename dirname);
+
+#$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME}=0;
 
 &usage if @ARGV<4;
 
@@ -13,6 +16,8 @@ my $soap = SOAP::Lite
      -> uri('http://service.session.sample')
      #-> proxy('http://david.abcc.ncifcrf.gov/webservice/services/DAVIDWebService',
 	 -> proxy('http://david.abcc.ncifcrf.gov/webservice/services/DAVIDWebService',
+                #ssl_opts => [ SSL_verify_mode => "SSL_VERIFY_NONE" ],
+	            #verify_hostnames => 0,
                 cookie_jar => HTTP::Cookies->new(ignore_discard=>1));
 
 #user authentication by email address
