@@ -15,6 +15,9 @@ plotheight = as.numeric(args[4])
 #pdf(paste(prefix,".boxplot.pdf",sep=""))
 #svg(paste(prefix,".boxplot.svg",sep=""))
 
+# example
+# Rscript /x400ifs-accel/zhoujj/github/jjUtil/compareDisRNAseq/MultiBoxplotNoOutlineSize.r OnlyInSCs 0.5 4 6 OnlyInSCs.gene.expr:4:darkgray OnlyInSCs.gene.expr:5:white
+
 svg(paste(prefix,".boxplot.svg",sep=""), width = plotwidth, height = plotheight)
 par(mar=c(7,7,7,7))
 #color = rainbow(length(args) - 1)

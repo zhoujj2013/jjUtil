@@ -57,10 +57,11 @@ if __name__ == "__main__":
 		for i in range(1,len(gSample.keys())+1):
 			predefine = []
 			for j in gSeq:
-				predefine.append(0)
+				predefine.append(0.01)
 			for k in gSample[str(i)]:
 				predefine[int(k)-1] = 1
 			
+			print "\t".join([str(s) for s in predefine])
 			# normalize predefined vector
 			preLogSum = 0
 			preLogArr = []
@@ -70,11 +71,15 @@ if __name__ == "__main__":
 				preLogArr.append(prelog)
 				preLogSum = preLogSum + prelog
 			
+			print "\t".join([str(s) for s in preLogArr])
+			
 			predefineNor = []
 			for plog in preLogArr:
 				predefineNored = plog/preLogSum
 				predefineNor.append(predefineNored)
 			
+			print "\t".join([str(s) for s in predefineNor])
+			print "#################"
 			# average
 			avg_gexpr_predefine = []
 			for a in range(0,len(gexpr)):
