@@ -57,11 +57,11 @@ if __name__ == "__main__":
 		for i in range(1,len(gSample.keys())+1):
 			predefine = []
 			for j in gSeq:
-				predefine.append(0.01)
+				predefine.append(0)
 			for k in gSample[str(i)]:
 				predefine[int(k)-1] = 1
 			
-			print "\t".join([str(s) for s in predefine])
+			#print "\t".join([str(s) for s in predefine])
 			# normalize predefined vector
 			preLogSum = 0
 			preLogArr = []
@@ -71,25 +71,27 @@ if __name__ == "__main__":
 				preLogArr.append(prelog)
 				preLogSum = preLogSum + prelog
 			
-			print "\t".join([str(s) for s in preLogArr])
+			#print "\t".join([str(s) for s in preLogArr])
 			
 			predefineNor = []
 			for plog in preLogArr:
 				predefineNored = plog/preLogSum
 				predefineNor.append(predefineNored)
 			
-			print "\t".join([str(s) for s in predefineNor])
-			print "#################"
+			#print "\t".join([str(s) for s in predefineNor])
 			# average
 			avg_gexpr_predefine = []
 			for a in range(0,len(gexpr)):
 				avg = (gexpr[a] + predefineNor[a])/2
 				avg_gexpr_predefine.append(avg)
-			
+		
+			#print "\t".join([str(s) for s in gexpr])
+			#print "\t".join([str(s) for s in avg_gexpr_predefine])	
+			#print "#################"
 			# tissue specific score, from http://www.ncbi.nlm.nih.gov/pubmed/21890647
 			#print sum(avg_gexpr_predefine)
-			#both = entropy(avg_gexpr_predefine)
-			#seperate = (entropy(gexpr) + entropy(predefineNor))/2
+			both = entropy(avg_gexpr_predefine)
+			seperate = (entropy(gexpr) + entropy(predefineNor))/2
 			#print str(entropy(gexpr)) + "\t" + str(entropy(predefineNor)) + "\t" + str(both) + "\t" + str(seperate)
 			
 			JSspec = 1-math.sqrt(entropy(avg_gexpr_predefine) - (entropy(gexpr) + entropy(predefine))/2)
