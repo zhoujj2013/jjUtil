@@ -3,7 +3,7 @@
 my $col = $ARGV[1];
 
 my @arr;
-my $max = 0;
+my $max = -10000000;
 my $min = 10000000;
 open IN,"$ARGV[0]" || die $!;
 while(<IN>){
