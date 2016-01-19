@@ -31,22 +31,29 @@ my ($platanno_f, $signal_f, $plat) = @ARGV;
 my %id2gene;
 if($plat =~ /affy/){
 	open IN,"$platanno_f" || die $!;
-	<IN>;
 	while(<IN>){
 		chomp;
+		next if(/^\!/);
+		next if(/^$/);
+		next if(/^\^/);
+		next if(/^ID/);
 		# col1 id
 		# col3 pos
 		# col10 gene assignment
 		# col12 probe type
 		my @t = split /\t/;
-		if($t[11] eq "---"){
-			$id2gene{$t[0]} = "Control";
+		if(!defined $t[11] or $t[11] eq "---"){
+			$id2gene{$t[0]} = "Control\tControl\tControl";
 		}else{
 			my @anno = split /\/\/\//,$t[9];
-			if($anno[0] eq "---"){
-				$id2gene{$t[0]} = "NA";
+			if(!defined $anno[0] or $anno[0] eq "---"){
+				$id2gene{$t[0]} = "NA\tNA\tNA";
 			}else{
 				my @a = split /\/\//,$anno[0];
+				#if(scalar(@a) < 2){
+				#	print STDERR join "\t",@a,"\n";
+				#}
+				# transcript_id	gene_id position
 				$id2gene{$t[0]} = "$a[0]\t$a[1]\t$t[2]";
 				#print "$a[0]\t$a[1]\t$t[2]\n";
 			}
@@ -55,10 +62,15 @@ if($plat =~ /affy/){
 	close IN;
 }
 
-print STDERR Dumper(\%id2gene);
+#print STDERR Dumper(\%id2gene);
 
 open IN,"$signal_f" || die $!;
 my $header =  <IN>;
+my @header = split /\t/,$header;
+my $col1 = shift @header;
+print "#$col1\tTrans_id\tgene_id\tpos\t";
+print join "\t",@header;
+
 while(<IN>){
 	chomp;
 	my @t = split /\t/;
