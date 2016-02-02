@@ -36,4 +36,4 @@ cut -f 2 $down.genename2ensemblId.lst > down.input
 perl $Bin/../../DavidAnno/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $down.david down.input $down.genename2ensemblId.lst
 cd ..
 
-rm $up.tmp $down.tmp header.txt
+#rm $up.tmp $down.tmp header.txt

@@ -51,11 +51,20 @@ for (i in 3:length(args)){
 boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
 
 #boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
+
+################
 axis(1, labels = FALSE)
 labels = apply(matrix(seq(1,length(llabels))), 1, function(x) llabels[x])
+################
+
 #print(length(llabels))
 #print(labels)
-text(x =  seq_along(labels), y = par("usr")[3] - 10, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
+
+
+################
+text(x =  seq_along(labels), y = par("usr")[3] - 20, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
+################
+
 
 #legend("topright", legend=args[c(2:length(args))], fill=color,cex=1.2)
 dev.off()

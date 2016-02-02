@@ -9,6 +9,8 @@ use File::Basename qw(basename dirname);
 
 &usage if @ARGV<5;
 
+$ENV{'PERL_LWP_SSL_VERIFY_HOSTNAME'} = 0;
+
 my $soap = SOAP::Lite
      -> uri('http://service.session.sample')
      #-> proxy('http://david.abcc.ncifcrf.gov/webservice/services/DAVIDWebService',

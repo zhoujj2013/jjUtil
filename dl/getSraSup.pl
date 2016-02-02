@@ -16,7 +16,7 @@ use Data::Dumper;
 sub usage {
         my $usage = << "USAGE";
 
-        Get sra and sup files by gsm id from GEO.
+        Get sra and sup files by gsm id from GEO in cluster 65.
         Author: zhoujj2013\@gmail.com
         Usage: $0 <gsm1> <gsm2> ...
 
