@@ -34,15 +34,16 @@ foreach my $gbk (@ARGV){
 				push @newLines,$l;
 			}
 			my $lineStr = join " ",@newLines;
-			my $gene = $1 if($lineStr =~ /\/gene=(\S+)/);
+			my $gene = $1 if($lineStr =~ /\/gene="([^"]+)"/);
 			#my $locus_tag = $1 if($lineStr =~ /\/locus_tag="([^"]+)"/);
-			my $note;
+			my @note;
 			if($lineStr =~ /\/note="([^"]+)"/){
-				$note = $1;
+				@note = $lineStr =~ /\/note="([^"]+)"/g;
 			}else{
-				$note = "NA";
+				push @note,"NA";
 			}
-			print "$gene\t$note\n";
+			$note[-1] =~ s/transcript_id=//g;
+			print "$gene\t$note[-1]\n";
 			#print "\n##################\n";
 			@lines = ();
 			next;
