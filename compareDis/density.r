@@ -3,7 +3,7 @@ prefix = args[1]
 
 #print(args[c(2:length(args))])
 
-pdf(paste(prefix,".density.pdf",sep=""))
+svg(paste(prefix,".density.svg",sep=""))
 color = rainbow(length(args) - 1)
 
 for (i in 2:length(args)){
@@ -13,7 +13,7 @@ for (i in 2:length(args)){
 	lcolor = arg_element[3]
 	color = append(color, lcolor)
 	
-	dat = read.table(file,header=F)
+	dat = read.table(file,header=F,sep="\t")
 	if (i == 2) {
 		plot(density(dat[,colnum]), col=color[i-1], cex.axis=1.5, cex.lab=1.5, lwd=1.5)
 	} else {

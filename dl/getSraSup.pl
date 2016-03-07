@@ -18,7 +18,7 @@ sub usage {
 
         Get sra and sup files by gsm id from GEO in cluster 65.
         Author: zhoujj2013\@gmail.com
-        Usage: $0 <gsm1> <gsm2> ...
+        Usage: $0 <gsm1>:prefix1 <gsm2>:prefix2 ...
 
 USAGE
 print "$usage";
@@ -54,7 +54,7 @@ foreach my $gsmlit (@ARGV){
 	while(<IN>){
 		if(/saved/){
 			if($_ !~ /listing/){
-				my $sraf = $1 if(/"([^"]+)"/);
+				my $sraf = $1 if(/(ftp-trace\.ncbi.*\.sra)/);
 				push @srafiles,$sraf;
 			}
 		}

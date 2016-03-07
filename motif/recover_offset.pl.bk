@@ -1,0 +1,79 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Getopt::Long;
+use FindBin qw($Bin $Script);
+use File::Basename qw(basename dirname);
+use Data::Dumper;
+use lib "/home/zhoujj/my_lib/pm";
+use bioinfo;
+
+&usage if @ARGV<1;
+
+#open IN,"" ||die "Can't open the file:$\n";
+#open OUT,"" ||die "Can't open the file:$\n";
+
+sub usage {
+        my $usage = << "USAGE";
+
+        Description of this script.
+        Author: zhoujj2013\@gmail.com
+        Usage: $0 <para1> <para2>
+        Example:perl $0 para1 para2
+
+USAGE
+print "$usage";
+exit(1);
+};
+
+my ($bed, $motif_result, $index_f) = @ARGV;
+
+my %se;
+open IN,"$bed" ||die $!;
+while(<IN>){
+	chomp;
+	my @t = split /\t/;
+	$se{$t[3]} = [$t[0], $t[1], $t[2]];
+}
+close IN;
+
+my %index;
+open IN,"$index_f" || die $!;
+while(<IN>){
+	chomp;
+	my @t = split /\t/;
+	$index{$t[0]} = $t[2];
+}
+close IN;
+
+my $prefix = basename($motif_result,".result");
+
+open OUT,">","./$index{$prefix}.InSilico.bed" || die $!;
+open IN,"$motif_result" || die $!;
+<IN>;
+while(<IN>){
+	chomp;
+	my @t = split /\t/;
+	my $se_id = $t[0];
+	my $offset = $t[1];
+	my $motif_len = length($t[2]);
+	my $strand = $t[4];
+	my $tss = int(($se{$se_id}[2] - $se{$se_id}[1])/2);
+	my ($motif_s, $motif_e);
+	if($strand eq "+"){
+		$motif_s = $tss + $offset;
+		$motif_e = $motif_s + $motif_len;
+	}elsif($strand eq "-"){
+		$motif_e = $tss + $offset;
+		$motif_s = $motif_e - $motif_len;
+	}
+	($motif_s,$motif_e) = ($motif_e,$motif_s) if($motif_s > $motif_e);
+	
+	$motif_s = $motif_s + $se{$se_id}[1];
+	$motif_e = $motif_e + $se{$se_id}[1];
+	
+	print OUT "$se{$se_id}[0]\t$motif_s\t$motif_e\n";
+}
+close IN;
+close OUT;
+

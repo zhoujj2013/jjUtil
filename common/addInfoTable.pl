@@ -5,8 +5,6 @@ use Getopt::Long;
 use FindBin qw($Bin $Script);
 use File::Basename qw(basename dirname);
 use Data::Dumper;
-use lib "/home/zhoujj/my_lib/pm";
-use bioinfo;
 
 &usage if @ARGV<1;
 
@@ -34,11 +32,24 @@ my $f1 = shift;
 my $f2 = shift;
 
 my %h;
+my $i = 0;
+my @white;
+my $white;
+
 open IN,"$f2" || die $!;
 while(<IN>){
 	chomp;
 	my @t = split /\t/;
 	$h{$t[$index_c2-1]} = \@t;
+	
+	if($i >=1){
+		my $num = scalar(@t);
+		for(0 .. $num-1){
+			push @white,"none";
+		}
+		$white = join "\t",@white;
+	}
+	$i++;
 }
 close IN;
 
@@ -51,7 +62,8 @@ while(<IN>){
 		print "$_\t";
 		print "$str\n";
 	}else{
-		print "$_\t\t\n";
+		print "$_\t";
+		print "$white\n";
 	}
 }
 close IN;

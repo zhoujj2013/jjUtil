@@ -7,8 +7,8 @@ import math
 def usage():
 	print '\n\tThis is the usage function'
 	print '\tAuthor: zhoujj2013@gmail.com'
-	print '\tUsage: '+sys.argv[0]+' <file1> '
-	print '\tExample: python ' + sys.argv[0] + ''
+	print '\tUsage: '+sys.argv[0]+' XXX.expr '
+	print '\tExample: python ' + sys.argv[0] + ' XXX.expr '
 	print '\n'
 	sys.exit(2)
 
