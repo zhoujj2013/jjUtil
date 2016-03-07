@@ -67,12 +67,23 @@ foreach my $gbk (@ARGV){
 				next unless($db =~ /goslim_goa/);
 				my @db = split /:/,$db;
 				push @output,"$db[-2]:$db[-1]";
-			}
-		
-			# db	
+			}	
 			print "$gene\t$note[-1]\t";
 			print join "\t",@output;
 			print "\n";
+			
+			# uniprot	
+			my @uniprot;	
+			foreach my $db (@db_ref){
+				next unless($db =~ /Uniprot\/SPTREMBL/);
+				my @db = split /:/,$db;
+				my @newdb = split /_/,$db[1];
+				
+				push @uniprot,"$newdb[0]";
+			}	
+			print STDERR "$gene\t$note[-1]\t";
+			print STDERR join "\t",@uniprot;
+			print STDERR "\n";
 			#print "\n##################\n";
 			@lines = ();
 			next;
