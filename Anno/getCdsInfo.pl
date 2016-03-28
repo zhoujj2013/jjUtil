@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 use strict;
-
+my $prefix = shift;
 =cut
      CDS             33265..33975
                      /gene="ENSSSCG00000025728"
@@ -24,6 +24,8 @@ use strict;
 
 =cut
 
+open OUT,">","./$prefix.swissprot" || die $!;
+open OUT1,">","./$prefix.trembl" || die $!;
 foreach my $gbk (@ARGV){
 	open IN,"$gbk" || die $!;
 	my $flag = 0;
@@ -72,7 +74,7 @@ foreach my $gbk (@ARGV){
 			print join "\t",@output;
 			print "\n";
 			
-			# uniprot	
+			# TREMBL	
 			my @uniprot;	
 			foreach my $db (@db_ref){
 				next unless($db =~ /Uniprot\/SPTREMBL/);
@@ -80,10 +82,25 @@ foreach my $gbk (@ARGV){
 				my @newdb = split /_/,$db[1];
 				
 				push @uniprot,"$newdb[0]";
-			}	
-			print STDERR "$gene\t$note[-1]\t";
-			print STDERR join "\t",@uniprot;
-			print STDERR "\n";
+			}
+			push @uniprot,"NA" if(scalar(@uniprot) eq 0);	
+			print OUT1 "$gene\t$note[-1]\t";
+			print OUT1 join "\t",@uniprot;
+			print OUT1 "\n";
+			
+			# SWISSPROT
+			my @sw;	
+			foreach my $db (@db_ref){
+				next unless($db =~ /Uniprot\/SWISSPROT/);
+				my @db = split /:/,$db;
+				my @newdb = split /_/,$db[1];
+				
+				push @sw,"$newdb[0]";
+			}
+			push @sw,"NA" if(scalar(@sw) eq 0);	
+			print OUT "$gene\t$note[-1]\t";
+			print OUT join "\t",@sw;
+			print OUT "\n";
 			#print "\n##################\n";
 			@lines = ();
 			next;
@@ -95,3 +112,5 @@ foreach my $gbk (@ARGV){
 	}
 	close IN;
 }
+close OUT;
+close OUT1;
