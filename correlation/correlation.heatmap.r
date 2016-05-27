@@ -1,21 +1,22 @@
 args <- commandArgs(TRUE)
 
-library("RColorBrewer")
+#library("RColorBrewer")
 
 Matrix_f = args[1]
 
 mat = read.table(file = Matrix_f, header=T)
 dat_matrix = data.matrix(mat[,seq(2,ncol(mat))])
+#dat_matrix = cor(log(dat_matrix+1))
 dat_matrix = cor(dat_matrix)
 print(dat_matrix)
-dat_matrix = dat_matrix
+#dat_matrix = abs(dat_matrix)
 #dat_matrix = cor(dat_matrix)
 
 library("gplots")
 pdf(file = paste(Matrix_f,".pdf",sep=""))
 
 # plan 1
-heatmap.2(dat_matrix,trace="none", dendrogram="none", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=F,Colv=F)
+heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,1), notecex=0.2, notecol="black", cexRow = 0.2, cexCol=0.2)
 
 # plan 2
 #my_palette <- colorRampPalette(c("blue","white","red"))(n=599)
