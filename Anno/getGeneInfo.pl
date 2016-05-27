@@ -31,8 +31,18 @@ foreach my $gbk (@ARGV){
 				push @newLines,$l;
 			}
 			my $lineStr = join " ",@newLines;
-			my $gene = $1 if($lineStr =~ /\/gene=(\S+)/);
-			my $locus_tag = $1 if($lineStr =~ /\/locus_tag="([^"]+)"/);
+			my $gene = "";
+			if($lineStr =~ /\/gene=(\S+)/){
+				$gene = $1;
+			}else{
+				$gene = "NA";
+			}
+			my $locus_tag ="";
+			if($lineStr =~ /\/locus_tag="([^"]+)"/){
+				$locus_tag = $1;
+			}else{
+				$locus_tag = "NA";
+			}
 			my @note;
 			if($lineStr =~ /\/note="([^"]+)"/){
 				@note = $lineStr =~ /\/note="([^"]+)"/g;
