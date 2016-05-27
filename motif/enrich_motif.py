@@ -68,8 +68,14 @@ if __name__ == "__main__":
 	#pmf_tfBindDegs = rv.pmf(1)
 	#print np.sum(pmf_tfBindDegs)
 	#print 1-np.sum(pmf_tfBindDegs)
+	# the probability less than tf_degs
 	prb = hypergeom.cdf(tf_degs, express_genes, degs, tf_binding_genes)
+	#pvalue = 1 - hypergeom.cdf(tf_degs, express_genes, degs, tf_binding_genes)
+	
+	#if pvalue > 1:
+	#	print >>sys.stderr, prefix
+	
 	prefix = sys.argv[4]
 
-	print "%s\t%f\t%d\t%d\t%d\t%d" % (prefix, prb, express_genes, degs, tf_binding_genes, tf_degs)
+	print "%s\t%.12f\t%d\t%d\t%d\t%d" % (prefix, prb, express_genes, degs, tf_binding_genes, tf_degs)
 

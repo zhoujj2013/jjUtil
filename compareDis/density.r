@@ -3,7 +3,7 @@ prefix = args[1]
 
 #print(args[c(2:length(args))])
 
-svg(paste(prefix,".density.svg",sep=""))
+pdf(paste(prefix,".density.pdf",sep=""))
 color = rainbow(length(args) - 1)
 
 for (i in 2:length(args)){

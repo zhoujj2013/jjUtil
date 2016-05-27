@@ -4,7 +4,7 @@ if [ $# -lt 4 ];then
 	echo ""
 	echo "	Get differential express gene from cufflinks result."
 	echo "	Author: zhoujj2013@gmail.com";
-	echo "	usage: sh $0 gene_exp.diff prefix spe[mm9] option[deg,anno,heatmap,scatterplot,volcanoplot]";
+	echo "	usage: sh $0 gene_exp.diff prefix spe[mmusculus] option[deg,anno,heatmap,scatterplot,volcanoplot]";
 	echo ""
 	exit;
 fi
@@ -17,7 +17,7 @@ opt=$4
 Bin=$(dirname $0)
 
 if [ $opt = "deg" ]; then
-grep "yes" $diff > $prefix.gene_exp.diff.deg
+grep "yes" $diff | awk '$13 <= 0.05' > $prefix.gene_exp.diff.deg
 
 awk '$8 < $9' $prefix.gene_exp.diff.deg > $prefix.gene_exp.diff.deg.up.tmp
 awk '$8 > $9' $prefix.gene_exp.diff.deg > $prefix.gene_exp.diff.deg.down.tmp
@@ -27,8 +27,10 @@ head -1 $diff > header.txt
 cat header.txt $prefix.gene_exp.diff.deg.up.tmp > $prefix.gene_exp.diff.deg.up
 cat header.txt $prefix.gene_exp.diff.deg.down.tmp > $prefix.gene_exp.diff.deg.down
 
+if [ ! -f ./$spe.ensemblId2genename.lst ]; then 
 perl $Bin/get_ensembl_id_map.pl $spe > $spe.ensemblId2genename.lst
 awk '{print $2"\t"$1}' $spe.ensemblId2genename.lst >  $spe.genename2ensemblId.lst 
+fi
 
 fi
 
@@ -52,7 +54,7 @@ cut -f 2 $prefix.down.genename2ensemblId.lst > down.input
 perl $Bin/../DavidAnno/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david down.input $prefix.down.genename2ensemblId.lst
 cd ..
 
-rm $prefix.gene_exp.diff.deg.up.tmp $prefix.gene_exp.diff.deg.down.tmp header.txt
+#rm $prefix.gene_exp.diff.deg.up.tmp $prefix.gene_exp.diff.deg.down.tmp header.txt
 fi
 
 if [ $opt = "heatmap" ]; then

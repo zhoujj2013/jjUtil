@@ -53,7 +53,7 @@ pdf(paste(prefix,".heatmap.pdf",sep=""))
 # plan 1
 #hmcols = colorRampPalette(c("navy", "white", "firebrick3"))(100)
 hmcols = colorRampPalette(c("blue", "white", "red"))(100)
-pheatmap( m1, cluster_rows = T, cluster_cols = F, col= hmcols, legend=T, show_rownames=TRUE, fontsize = 3, border_color=NA, show_colnames=TRUE)
+pheatmap( m1, cluster_rows = T, cluster_cols = F, col= hmcols, legend=T, show_rownames=TRUE, fontsize = 12, border_color="black", show_colnames=TRUE)
 
 # plan 2 non clustering
 

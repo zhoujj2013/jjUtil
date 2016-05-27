@@ -19,7 +19,7 @@ sub usage {
         Get RPKM value for sequence alignment file, such as bam.
         Author: zhoujj2013\@gmail.com
         Usage: $0 <bed> <extend, 15|none> <prefix> <bam1> <bam2> ...
-
+        RPKM   log(RPKM)
 USAGE
 print "$usage";
 exit(1);

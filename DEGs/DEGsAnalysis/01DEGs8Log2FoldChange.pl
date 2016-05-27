@@ -17,7 +17,7 @@ sub usage {
 
         This script design for differential express gene analysis by Log2FoldChange comparision.
         Author: zhoujj2013\@gmail.com
-        Usage: $0 <control> <treatment> <control> <treatment> <geneexpr file> <log2foldchange cutoff>
+        Usage: $0 <control_prefix> <treatment_prefix> <control> <treatment> <geneexpr file> <log2foldchange cutoff>
         Note: control vs. treatment
 USAGE
 print "$usage";
@@ -77,11 +77,11 @@ print STDOUT "head -1 $group_name1.vs.$group_name2.expr.FC > ./header.txt\n";
 `head -1 $group_name1.vs.$group_name2.expr.FC > ./header.txt`;
 `grep -v "Log2(" $group_name1.vs.$group_name2.expr.FC > $group_name1.vs.$group_name2.expr.FC.tmp`;
 
-print STDOUT "awk '\$4 >= $cutoff' $group_name1.vs.$group_name2.expr.FC.tmp > $group_name1.vs.$group_name2.expr.FC.up\n";
-`awk '\$4 >= $cutoff' $group_name1.vs.$group_name2.expr.FC.tmp> $group_name1.vs.$group_name2.expr.FC.up.tmp`;
+print STDOUT "awk '\$4 >= $cutoff' $group_name1.vs.$group_name2.expr.FC.tmp | awk '\$2 >= 0.5 || \$3 >= 0.5' > $group_name1.vs.$group_name2.expr.FC.up\n";
+`awk '\$4 >= $cutoff' $group_name1.vs.$group_name2.expr.FC.tmp | awk '\$2 >= 0.5 || \$3 >= 0.5' > $group_name1.vs.$group_name2.expr.FC.up.tmp`;
 `cat ./header.txt $group_name1.vs.$group_name2.expr.FC.up.tmp > $group_name1.vs.$group_name2.expr.FC.up`;
 
-print STDOUT "awk '\$4 <= -$cutoff' $group_name1.vs.$group_name2.expr.FC.tmp > $group_name1.vs.$group_name2.expr.FC.down\n";
-`awk '\$4 <= -$cutoff' $group_name1.vs.$group_name2.expr.FC.tmp > $group_name1.vs.$group_name2.expr.FC.down.tmp`;
+print STDOUT "awk '\$4 <= -$cutoff' $group_name1.vs.$group_name2.expr.FC.tmp | awk '\$2 >= 0.5 || \$3 >= 0.5' > $group_name1.vs.$group_name2.expr.FC.down\n";
+`awk '\$4 <= -$cutoff' $group_name1.vs.$group_name2.expr.FC.tmp | awk '\$2 >= 0.5 || \$3 >= 0.5' > $group_name1.vs.$group_name2.expr.FC.down.tmp`;
 `cat ./header.txt $group_name1.vs.$group_name2.expr.FC.down.tmp > $group_name1.vs.$group_name2.expr.FC.down`;
 
