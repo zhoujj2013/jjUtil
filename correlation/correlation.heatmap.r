@@ -6,12 +6,7 @@ Matrix_f = args[1]
 
 mat = read.table(file = Matrix_f, header=T)
 dat_matrix = data.matrix(mat[,seq(2,ncol(mat))])
-<<<<<<< HEAD
 dat_matrix = cor(dat_matrix, method=c("pearson"))
-=======
-#dat_matrix = cor(log(dat_matrix+1))
-dat_matrix = cor(dat_matrix)
->>>>>>> d036c11c6a67fe73122ebbc3bf1d01dac42ed926
 print(dat_matrix)
 #dat_matrix = abs(dat_matrix)
 #dat_matrix = cor(dat_matrix)
@@ -20,11 +15,8 @@ library("gplots")
 pdf(file = paste(Matrix_f,".pdf",sep=""))
 
 # plan 1
-<<<<<<< HEAD
-heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,2), notecol="black", notecex=0.5)
-=======
+#heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,2), notecol="black", notecex=0.5)
 heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,1), notecex=0.2, notecol="black", cexRow = 0.2, cexCol=0.2)
->>>>>>> d036c11c6a67fe73122ebbc3bf1d01dac42ed926
 
 # plan 2
 #my_palette <- colorRampPalette(c("blue","white","red"))(n=599)
