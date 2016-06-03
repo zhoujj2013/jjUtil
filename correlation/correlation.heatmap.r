@@ -16,8 +16,11 @@ pdf(file = paste(Matrix_f,".pdf",sep=""))
 
 # plan 1
 #heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,2), notecol="black", notecex=0.5)
-heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,1), notecex=0.2, notecol="black", cexRow = 0.2, cexCol=0.2)
+#heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,1), notecex=0.2, notecol="black", cexRow = 0.2, cexCol=0.2)
 
+heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cexRow = 0.1, cexCol=0.1, cellnote=round(dat_matrix,1), notecex=0.1, notecol="black")
+
+write.table(dat_matrix,file=paste(Matrix_f,".tab",sep=""), quote=FALSE, sep = "\t", row.names = TRUE, col.names = FALSE)
 # plan 2
 #my_palette <- colorRampPalette(c("blue","white","red"))(n=599)
 #col_breaks = c(seq(0,0.33,length=200),seq(0.331,0.66, length=200),seq(0.661,1,length=200))

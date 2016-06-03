@@ -30,7 +30,7 @@ for (i in 2:length(args)){
 }
 
 axis(side = 2, lwd = 2, cex.axis = 2)
-axis(side = 1, lwd = 2, cex.axis = 2)
+axis(side = 1, lwd = 2, cex.axis = 2, at=c("-5000","-2500","0","2500","5000"))
 #box(col = 'black', lwd = 1.5)
 #legend("topright", legend=pp, fill=color,cex=1.2, bty="n")
 dev.off()
