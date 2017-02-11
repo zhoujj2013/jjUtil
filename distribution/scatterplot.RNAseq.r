@@ -4,14 +4,18 @@ fc_str = args[2]
 type = args[3]
 
 fc = strtoi(fc_str)
+print(fc)
 
 dat = read.table(expr, header=T, row.names=1)
 
+print(cor(dat[,1],dat[,2]))
+cor.test(dat[,1], dat[,2],alternative = c("two.sided"), method = c("pearson"))
+head(dat)
 # input format
 # geneid expr1 expr2 log2(FoldChange)
 degs = subset(dat, abs(dat[,3]) > fc)
 nondegs = subset(dat, abs(dat[,3]) <= fc)
-
+head(nondegs)
 #summary(log10(dat[,1]+1))
 #summary(log10(dat[,2]+1))
 

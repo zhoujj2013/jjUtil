@@ -5,8 +5,6 @@ use Getopt::Long;
 use FindBin qw($Bin $Script);
 use File::Basename qw(basename dirname);
 use Data::Dumper;
-use lib "/home/zhoujj/my_lib/pm";
-use bioinfo;
 
 &usage if @ARGV<1;
 
@@ -55,8 +53,8 @@ foreach(@ARGV){
 	my $bname = basename($bamf, ".bam");
 	my $totalReads = `samtools flagstat $bamf | grep "mapped (" | awk '{print \$1}'`;
 	chomp($totalReads);
-	
-	`bedtools coverage -abam $bamf -b $prefix.extend.bed > $prefix.$bname.cov`;
+	my $bedtools = "/x400ifs-accel/zhoujj/software/BEDTools-Version-2.16.2/bin/bedtools";
+	`$bedtools coverage -abam $bamf -b $prefix.extend.bed > $prefix.$bname.cov`;
 
 	# output format
 	# chrom start end id featureB_num A_cover_length A_length A_cover_fraction
