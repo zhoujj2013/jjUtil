@@ -4,7 +4,8 @@ prefix = args[1]
 
 # sample format: filename:column:color
 #pdf(paste(prefix,".RegionCenter.density.pdf",sep=""))
-svg(paste(prefix,".RegionCenter.density.svg",sep=""))
+pdf(paste(prefix,".RegionCenter.density.pdf",sep=""))
+par(mar=c(7,7,7,7))
 pp = c()
 color = c()
 
@@ -20,7 +21,7 @@ for (i in 2:length(args)){
 	
 	dat = read.table(file,header=F)
 	if (i == 2){
-		plot(dat$V1, dat[,colnum], type="l", lwd=3, cex.lab=1.5, cex.axis=1.5, ylim=c(0,max(dat[,colnum]+0.5)), xlab="Distance from region center", ylab="Mean signal density", col=lcolor, bty="n")
+		plot(dat$V1, dat[,colnum], type="l", lwd=3, cex.lab=1.5, cex.axis=1.5, xaxt="n", yaxt="n", ylim=c(0,max(dat[,colnum]+0.5)), xlab="Distance from region center", ylab="Mean signal density", col=lcolor, bty="n")
 		#plot(density(dat[,colnum]), col=lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5)
 	} else {
 		lines(dat$V1, dat[,colnum], type="l", lwd=3, col=lcolor)
@@ -28,7 +29,10 @@ for (i in 2:length(args)){
 	}
 }
 
-legend("topright", legend=pp, fill=color,cex=1.2, bty="n")
+axis(side = 2, lwd = 2, cex.axis = 2)
+axis(side = 1, lwd = 2, cex.axis = 2, at=c("-5000","-2500","0","2500","5000"))
+#box(col = 'black', lwd = 1.5)
+#legend("topright", legend=pp, fill=color,cex=1.2, bty="n")
 dev.off()
 
 # color = rainbow(8)

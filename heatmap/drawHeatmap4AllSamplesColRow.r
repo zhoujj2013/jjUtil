@@ -1,5 +1,9 @@
 args <- commandArgs(TRUE)
 
+if (length(args) < 4) {
+	stop(paste("Rscript XXX.R prefix colnum[1,2,3,4] namestr[a,b,c,d] expr.tab",sep=""))
+}
+
 # input max genes number 8000
 prefix = args[1]
 colnum = args[2]

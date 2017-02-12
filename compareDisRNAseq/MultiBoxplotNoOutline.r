@@ -11,7 +11,7 @@ boxwidth = as.numeric(args[2])
 #print(args[c(2:length(args))])
 
 #pdf(paste(prefix,".boxplot.pdf",sep=""))
-svg(paste(prefix,".boxplot.svg",sep=""))
+pdf(paste(prefix,".boxplot.pdf",sep=""))
 par(mar=c(7,7,7,7))
 #color = rainbow(length(args) - 1)
 
@@ -48,13 +48,16 @@ for (i in 3:length(args)){
 
 #boxplot(value~class, data=d)
 
-boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
+boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis = 1.5, lwd=1.5, outline=F, bty="n")
+#axis(side = 1, lwd = 1.5, cex.axis = 1.5, labels=FALSE)
+axis(side = 2, lwd = 1.5, cex.axis = 1.5, labels=FALSE)
+box(col = 'black', lwd = 1.5)
 
 #boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)
 
 ################
-axis(1, labels = FALSE)
-labels = apply(matrix(seq(1,length(llabels))), 1, function(x) llabels[x])
+#axis(1, labels = FALSE)
+#labels = apply(matrix(seq(1,length(llabels))), 1, function(x) llabels[x])
 ################
 
 #print(length(llabels))
@@ -62,7 +65,7 @@ labels = apply(matrix(seq(1,length(llabels))), 1, function(x) llabels[x])
 
 
 ################
-text(x =  seq_along(labels), y = par("usr")[3] - 20, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
+#text(x =  seq_along(labels), y = par("usr")[3] - 20, srt = 45, adj = 1, labels = labels, xpd = TRUE, cex=1.5)
 ################
 
 
