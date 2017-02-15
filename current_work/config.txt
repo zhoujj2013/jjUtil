@@ -1,0 +1,17 @@
+out	./
+query	aa.fa
+cut	20
+
+# db
+Nr	none
+Nt	none
+Swissprot	none
+TrEMBL	none
+UserDB	none
+
+# program
+blastall	./
+formatdb	./a
+
+# para
+evalue	1e5
