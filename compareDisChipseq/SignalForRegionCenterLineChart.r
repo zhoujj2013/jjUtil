@@ -21,7 +21,7 @@ for (i in 2:length(args)){
 	
 	dat = read.table(file,header=F)
 	if (i == 2){
-		plot(dat$V1, dat[,colnum], type="l", lwd=3, cex.lab=1.5, cex.axis=1.5, xaxt="n", yaxt="n", ylim=c(0,max(dat[,colnum]+0.5)), xlab="Distance from region center", ylab="Mean signal density", col=lcolor, bty="n")
+		plot(dat$V1, dat[,colnum], type="l", lwd=3, cex.lab=1.5, cex.axis=1.5, xaxt="n", yaxt="n", ylim=c(min(dat[,colnum]),max(dat[,colnum])), xlab="Distance from region center", ylab="Mean signal density", col=lcolor, bty="n")
 		#plot(density(dat[,colnum]), col=lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5)
 	} else {
 		lines(dat$V1, dat[,colnum], type="l", lwd=3, col=lcolor)

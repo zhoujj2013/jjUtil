@@ -4,7 +4,7 @@ boxwidth = as.numeric(args[2])
 plotwidth = as.numeric(args[3])
 plotheight = as.numeric(args[4])
 
-library(beeswarm)
+library("beeswarm")
 
 # http://www.cyclismo.org/tutorial/R/index.html
 # input data format. per file, per feature

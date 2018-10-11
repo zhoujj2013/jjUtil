@@ -1,0 +1,4910 @@
+{
+  "datasets": {
+    "S100_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S100_BA41_42_22.bw", 
+            "md5sum": "963ea183c79af58438109b455e13f088", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002262", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003166.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S100_BA41_42_22"
+    }, 
+    "S100_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S100_BA41_42.bw", 
+            "md5sum": "06f09f8fc9c37a33b7d39ee854dbfe3d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002265", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003361.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S100_BA41_42"
+    }, 
+    "S101_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S101_BA41_42.bw", 
+            "md5sum": "e46d1c524c8011f6e72be4cdc829a23d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002267", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003377.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "19"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S101_BA41_42"
+    }, 
+    "S107_BA22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S107_BA22.bw", 
+            "md5sum": "7f5868be4d4d4c778f0462b9eb368c9b", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002278", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003129.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "11"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S107_BA22"
+    }, 
+    "S108_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S108_BA41_42_22.bw", 
+            "md5sum": "d97ab194431a16913c2ef7872faf66dc", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002279", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003373.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "18"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S108_BA41_42_22"
+    }, 
+    "S108_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S108_BA41_42.bw", 
+            "md5sum": "5721d29392a9b7f6abbeed10d571acb3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002281", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003276.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "18"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S108_BA41_42"
+    }, 
+    "S109_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S109_BA41_42_22.bw", 
+            "md5sum": "c3432501ab78c42f7f7e25d79ab9dd9f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002284", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003246.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "9"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S109_BA41_42_22"
+    }, 
+    "S110_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S110_BA41_42_22.bw", 
+            "md5sum": "3a5bd53d7882158f503d1cc6821f4f99", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002287", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003249.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "50"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S110_BA41_42_22"
+    }, 
+    "S111_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S111_BA41_42_22.bw", 
+            "md5sum": "e935f9bcd0b4789480b9ee161fdb51f2", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002290", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003142.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S111_BA41_42_22"
+    }, 
+    "S112_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S112_BA41_42.bw", 
+            "md5sum": "773dca73f6a2060e3032afa897cfaa4e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002293", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003123.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S112_BA41_42"
+    }, 
+    "S114_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S114_BA41_42.bw", 
+            "md5sum": "910632b193404714f5ea2df26b12b26a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002298", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003392.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "8"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S114_BA41_42"
+    }, 
+    "S116_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S116_BA41_42_22.bw", 
+            "md5sum": "0155dac963b7d15f09cb962ce810c594", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002301", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003152.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S116_BA41_42_22"
+    }, 
+    "S11_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S11_BA41_42_22.bw", 
+            "md5sum": "ac20ebceb2557cdb0793489ca319dbef", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002042", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003341.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S11_BA41_42_22"
+    }, 
+    "S12_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S12_BA41_42_22.bw", 
+            "md5sum": "aa204f762f42e98f1e36b2941e63e7ac", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002044", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003333.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "43"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S12_BA41_42_22"
+    }, 
+    "S14_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S14_BA41_42_22.bw", 
+            "md5sum": "44d4c86330e9146e458e90e867f3f3d1", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002051", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003320.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "8.3"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S14_BA41_42_22"
+    }, 
+    "S15_BA20_37_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S15_BA20_37.bw", 
+            "md5sum": "0a14305022a9c52eb68172e421bc2c9d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002053", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003177.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA20_37", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.92"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S15_BA20_37"
+    }, 
+    "S19_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S19_BA41_42_22.bw", 
+            "md5sum": "1cb06a7418dd1b4c505c200e5dd66b09", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002057", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003322.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27.17"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S19_BA41_42_22"
+    }, 
+    "S1_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S1_BA41_42_22.bw", 
+            "md5sum": "481a9916cf52e515ae2788d7eecafab8", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002018", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003182.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S1_BA41_42_22"
+    }, 
+    "S20_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S20_BA41_42_22.bw", 
+            "md5sum": "c04dbc6398188a704c46c2b8868180d7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002061", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003163.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "6.75"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S20_BA41_42_22"
+    }, 
+    "S21_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S21_BA41_42_22.bw", 
+            "md5sum": "405a6bd16fab215c603d8b56df3bb3e5", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002065", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003137.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "31.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S21_BA41_42_22"
+    }, 
+    "S23_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S23_BA41_42_22.bw", 
+            "md5sum": "f43ef8d3907cc2d54488de02ba63db38", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002069", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003325.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "18.58"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S23_BA41_42_22"
+    }, 
+    "S24_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S24_BA41_42_22.bw", 
+            "md5sum": "ecb868a80aae348c8631f75b3b8e934f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002072", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003105.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "4"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S24_BA41_42_22"
+    }, 
+    "S25_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S25_BA41_42_22.bw", 
+            "md5sum": "9faa480d414b7743ea79d0424ac1cf6e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002074", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003138.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.08"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S25_BA41_42_22"
+    }, 
+    "S26_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S26_BA41_42_22.bw", 
+            "md5sum": "f6dc6961b87f1bf6dad1f9ba831dcbfb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002077", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003318.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.08"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S26_BA41_42_22"
+    }, 
+    "S27_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S27_BA41_42_22.bw", 
+            "md5sum": "086c356c7aa6b9e9ffd4af20e34fef0a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002079", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003390.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.26"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S27_BA41_42_22"
+    }, 
+    "S28_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S28_BA41_42_22.bw", 
+            "md5sum": "a10da25b826bf0e750b651b1095ff632", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002081", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003263.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.23"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S28_BA41_42_22"
+    }, 
+    "S29_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S29_BA41_42_22.bw", 
+            "md5sum": "e5976d18392db6ac117d980895665fa9", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002084", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003340.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "36.36"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S29_BA41_42_22"
+    }, 
+    "S2_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S2_BA41_42_22.bw", 
+            "md5sum": "5aff4b75967a06010ce1eca420cc9122", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002021", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003206.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S2_BA41_42_22"
+    }, 
+    "S31_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S31_BA41_42_22.bw", 
+            "md5sum": "a943ff49342faac1eb857b2508e7c0a8", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002088", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003381.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17.7"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S31_BA41_42_22"
+    }, 
+    "S32_BA20_37_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S32_BA20_37.bw", 
+            "md5sum": "a20354f1f803d4a3b2c2f1c30ba69b24", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002092", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003296.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA20_37", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13.95"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S32_BA20_37"
+    }, 
+    "S34_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S34_BA41_42_22.bw", 
+            "md5sum": "3108914e88610777a7fb3581eafa8524", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002095", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003372.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "29.91"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S34_BA41_42_22"
+    }, 
+    "S35_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S35_BA41_42_22.bw", 
+            "md5sum": "f2a947b079a23f575d374221777a6839", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002098", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003267.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "30.75"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S35_BA41_42_22"
+    }, 
+    "S36_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S36_BA41_42_22.bw", 
+            "md5sum": "b575fc3cf2990d7f27deaa4ca0ec1378", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002099", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003173.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "39.15"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S36_BA41_42_22"
+    }, 
+    "S37_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S37_BA41_42_22.bw", 
+            "md5sum": "14f066b16422567d038aa61001d4cedb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002102", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003191.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S37_BA41_42_22"
+    }, 
+    "S38_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S38_BA41_42_22.bw", 
+            "md5sum": "16a6eb43900d7003dfd309e00cc2d89f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002104", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003139.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "43.25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S38_BA41_42_22"
+    }, 
+    "S39_BA38_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S39_BA38.bw", 
+            "md5sum": "ec270eabdb8ba15f1e6c45dca661d955", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002107", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003382.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA38", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "25.47"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S39_BA38"
+    }, 
+    "S3_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S3_BA41_42_22.bw", 
+            "md5sum": "d0af8c99c4b43df4de2cb74055eef7f3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002023", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003196.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S3_BA41_42_22"
+    }, 
+    "S40_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S40_BA41_42_22.bw", 
+            "md5sum": "e1b10c6c3e9e4fef8bf60010c0085f56", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002112", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003391.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20.3"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S40_BA41_42_22"
+    }, 
+    "S41_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S41_BA41_42_22.bw", 
+            "md5sum": "183497cf9d54d3b809cde950d06c3940", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002115", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003200.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "25.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S41_BA41_42_22"
+    }, 
+    "S42_BA38_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S42_BA38.bw", 
+            "md5sum": "0d537af04d022ae30001a914695153f0", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002118", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003286.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA38", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "10.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S42_BA38"
+    }, 
+    "S43_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S43_BA41_42_22.bw", 
+            "md5sum": "8b614eaa084f0b5ba47d3db2a9f27ef8", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002121", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003207.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S43_BA41_42_22"
+    }, 
+    "S44_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S44_BA41_42_22.bw", 
+            "md5sum": "68f07b5bbc887f503d45b08741e749d4", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002124", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003145.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S44_BA41_42_22"
+    }, 
+    "S45_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S45_BA41_42_22.bw", 
+            "md5sum": "2f679ea6c9631a274272a2f941e73439", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002125", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003211.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.46"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S45_BA41_42_22"
+    }, 
+    "S46_BA38_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S46_BA38.bw", 
+            "md5sum": "52b1c8198e4ce98f0482aed6cfbab3df", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002128", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003301.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA38", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S46_BA38"
+    }, 
+    "S47_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S47_BA41_42_22.bw", 
+            "md5sum": "241e0d5a381f459aeca277a761ceb081", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002131", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003215.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24.23"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S47_BA41_42_22"
+    }, 
+    "S48_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S48_BA41_42_22.bw", 
+            "md5sum": "3d8651e74bfbde2d28840f0f065be0ed", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002134", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003307.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.47"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S48_BA41_42_22"
+    }, 
+    "S49_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S49_BA41_42_22.bw", 
+            "md5sum": "9a3756ae8edef51efd0a28035d14692e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002136", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003148.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S49_BA41_42_22"
+    }, 
+    "S50_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S50_BA41_42_22.bw", 
+            "md5sum": "cbafb096bcd755c6ca1116d55e282c48", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002138", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003175.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S50_BA41_42_22"
+    }, 
+    "S51_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S51_BA41_42_22.bw", 
+            "md5sum": "d059a37473d82a35dbcb33eed83ca6b6", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002142", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003106.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16.06"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S51_BA41_42_22"
+    }, 
+    "S52_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S52_BA41_42_22.bw", 
+            "md5sum": "e625725f62ffdf2fb5faf58cd807a4dd", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002145", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003342.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32.92"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S52_BA41_42_22"
+    }, 
+    "S54_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S54_BA41_42_22.bw", 
+            "md5sum": "0d2c5b616bdf441ac36e527b685500a6", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002151", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003256.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S54_BA41_42_22"
+    }, 
+    "S55_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S55_BA41_42_22.bw", 
+            "md5sum": "eb1d51eb70db605ca94a0bd06c36ecdc", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002152", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003176.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.12"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S55_BA41_42_22"
+    }, 
+    "S56_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S56_BA41_42_22.bw", 
+            "md5sum": "2515b3a13e4556c7d53ccf1121f6a4fd", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002155", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003199.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S56_BA41_42_22"
+    }, 
+    "S57_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S57_BA41_42_22.bw", 
+            "md5sum": "9d7d761cbe27f89032dcbced56f5fb9e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002158", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003356.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S57_BA41_42_22"
+    }, 
+    "S58_BA20_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S58_BA20.bw", 
+            "md5sum": "791991b1d75e86a60cf00261072b97d6", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002160", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003374.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA20", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13.63"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S58_BA20"
+    }, 
+    "S59_BA38_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S59_BA38.bw", 
+            "md5sum": "f132a3821f5c76a65da16951fede95cb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002164", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003309.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA38", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.67"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S59_BA38"
+    }, 
+    "S5_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S5_BA41_42_22.bw", 
+            "md5sum": "127cf12534658ef97e7140bb578871b7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002028", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003107.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S5_BA41_42_22"
+    }, 
+    "S60_BA20_37_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S60_BA20_37.bw", 
+            "md5sum": "8fa543a431e916778a995d5e8f03acc0", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002167", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003253.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA20_37", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.92"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S60_BA20_37"
+    }, 
+    "S63_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S63_BA41_42_22.bw", 
+            "md5sum": "aff9669252b40bb3b394f1d4d48f36df", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002174", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003329.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "NA"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S63_BA41_42_22"
+    }, 
+    "S64_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S64_BA41_42_22.bw", 
+            "md5sum": "e21dfec49e1ab294a9d55baac727c0b2", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002175", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003370.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S64_BA41_42_22"
+    }, 
+    "S65_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S65_BA41_42_22.bw", 
+            "md5sum": "f9eff69c8c0b353c201944b35af2f977", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002180", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003214.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26.16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S65_BA41_42_22"
+    }, 
+    "S66_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S66_BA41_42_22.bw", 
+            "md5sum": "9fa12f37a13e4083f8c8e6876663ee58", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002182", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003283.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S66_BA41_42_22"
+    }, 
+    "S68_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S68_BA41_42_22.bw", 
+            "md5sum": "3d445cc133c94b3a5a584bfbfbafc114", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002188", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003205.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S68_BA41_42_22"
+    }, 
+    "S69_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S69_BA41_42_22.bw", 
+            "md5sum": "671d5bb1770344c82d8e7a4b0c81d320", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002191", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003275.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20.4"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S69_BA41_42_22"
+    }, 
+    "S71_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S71_BA41_42_22.bw", 
+            "md5sum": "baf3290f0f5143c20c0c820e63804e2e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002195", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003156.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S71_BA41_42_22"
+    }, 
+    "S72_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S72_BA41_42_22.bw", 
+            "md5sum": "2bd0cb675aefacca7f24acee5a056d2d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002196", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003257.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S72_BA41_42_22"
+    }, 
+    "S73_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S73_BA41_42_22.bw", 
+            "md5sum": "dad573b303c29f74baf3d5dad4095feb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002199", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003357.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S73_BA41_42_22"
+    }, 
+    "S74_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S74_BA41_42_22.bw", 
+            "md5sum": "727922bf212d4bedf5f3968436d999ea", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002201", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003165.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S74_BA41_42_22"
+    }, 
+    "S76_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S76_BA41_42_22.bw", 
+            "md5sum": "836d70a92c8295cbaab7ec49e10e6e76", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002206", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003368.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "96"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S76_BA41_42_22"
+    }, 
+    "S77_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S77_BA41_42_22.bw", 
+            "md5sum": "4ef0d599bbf3ea9195d8f8a83fb3dfe9", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002208", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003158.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S77_BA41_42_22"
+    }, 
+    "S78_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S78_BA41_42_22.bw", 
+            "md5sum": "90460fe66555b0371756d756b1ae90c7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002211", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003251.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S78_BA41_42_22"
+    }, 
+    "S7_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S7_BA41_42_22.bw", 
+            "md5sum": "82294d7cdc1c2b585b6f5f641c109b3b", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002033", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003284.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "31"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S7_BA41_42_22"
+    }, 
+    "S80_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S80_BA41_42_22.bw", 
+            "md5sum": "b70810b94c9ca1ba6769f1b218a5e73c", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002217", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003231.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S80_BA41_42_22"
+    }, 
+    "S83_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S83_BA41_42_22.bw", 
+            "md5sum": "7ae9f3c518370e51b0624cab5e36ae3d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002222", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003143.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S83_BA41_42_22"
+    }, 
+    "S84_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S84_BA41_42_22.bw", 
+            "md5sum": "7993eb7bfebee8545a92a23434feb93f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002224", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003254.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S84_BA41_42_22"
+    }, 
+    "S85_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S85_BA41_42_22.bw", 
+            "md5sum": "8e49a83fe40fb2076838aa60cd91da62", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002227", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003265.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S85_BA41_42_22"
+    }, 
+    "S86_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S86_BA41_42_22.bw", 
+            "md5sum": "a89b0d4c4637cf429d7a1f8ff23c1cf3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002229", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003236.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S86_BA41_42_22"
+    }, 
+    "S87_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S87_BA41_42_22.bw", 
+            "md5sum": "1110b4cbcd3f8659d2c479b8889e3eeb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002232", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003387.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S87_BA41_42_22"
+    }, 
+    "S88_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S88_BA41_42_22.bw", 
+            "md5sum": "2b10ffd03b6f62a943ffbc0a0ee4621e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002234", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003140.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S88_BA41_42_22"
+    }, 
+    "S8_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S8_BA41_42_22.bw", 
+            "md5sum": "cde1e40eb6039f26c87e9770d65d9146", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002035", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003204.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "45"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S8_BA41_42_22"
+    }, 
+    "S90_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S90_BA41_42.bw", 
+            "md5sum": "5e7946af6ae9ce1a49b05775766c9800", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002238", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003264.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S90_BA41_42"
+    }, 
+    "S93_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S93_BA41_42.bw", 
+            "md5sum": "10d00b62b8e4faf9a4dcc2337bc0f1f7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002246", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003124.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S93_BA41_42"
+    }, 
+    "S94_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S94_BA41_42_22.bw", 
+            "md5sum": "44cedb876dc05eaa33f5b7ddd81c7972", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002247", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003195.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S94_BA41_42_22"
+    }, 
+    "S95_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S95_BA41_42_22.bw", 
+            "md5sum": "4e4f24b4454acd2652622b0ebb6a5111", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002249", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003274.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S95_BA41_42_22"
+    }, 
+    "S95_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S95_BA41_42.bw", 
+            "md5sum": "286cee2d34779494872dff138c31ed52", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002251", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003298.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S95_BA41_42"
+    }, 
+    "S96_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S96_BA41_42_22.bw", 
+            "md5sum": "dd883fa77b9e0f323491f7673b328dda", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002253", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003227.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "19"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S96_BA41_42_22"
+    }, 
+    "S98_BA41_42_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S98_BA41_42.bw", 
+            "md5sum": "6e2d74b3d5249feb0969642329d4ecce", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002258", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003151.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "15"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S98_BA41_42"
+    }, 
+    "S99_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S99_BA41_42_22.bw", 
+            "md5sum": "8347641bf285f0bc40c9a1514f449346", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002260", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003189.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S99_BA41_42_22"
+    }, 
+    "S9_BA41_42_22_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S9_BA41_42_22.bw", 
+            "md5sum": "03d6c3c556c62c840384129e7e276dbe", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002037", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003336.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "Temporal Cortex", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "BA41_42_22", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S9_BA41_42_22"
+    }
+  }, 
+  "hub_description": {
+    "assembly": "hg19", 
+    "date": "2017-09-28", 
+    "description": "Data hub generated by the IHEC Data Portal, with the following parameters: {'session': '4785'}", 
+    "email": "info@epigenomesportal.ca", 
+    "publishing_group": "Other", 
+    "releasing_group": "Other", 
+    "taxon_id": 9606
+  }, 
+  "samples": {
+    "S100_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 20, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4999", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S100_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 20, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4999", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S101_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 46, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5023", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S107_BA22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5168", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S108_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5176", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S108_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5176", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S109_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5242", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S110_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 33, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5297", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S111_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5302", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S112_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 67, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5303", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S114_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 14, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5309", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S116_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 23, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5342", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S11_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 37, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A268/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S12_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 43, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A292/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S14_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 27, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN00493", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S15_BA20_37": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 17, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN00544", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S19_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01410", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S1_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 59, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1054/97", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S20_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 18, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01570", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S21_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01971", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S23_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 19, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03217", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S24_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 2, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03345", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S25_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 49, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03632", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S26_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 19, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03935", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S27_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN04479", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S28_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN04682", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S29_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 24, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN05983", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S2_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 67, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1085/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S31_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 10, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06365", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S32_BA20_37": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06420", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S34_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 21, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN07176", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S35_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 17, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN07444", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S36_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 52, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08043", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S37_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 36, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08161", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S38_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 28, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08166", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S39_BA38": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 38, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08677", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S3_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 64, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1127/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S40_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 30, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08792", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S41_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 5, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08873", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S42_BA38": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 11, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09402", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S43_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 60, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09714", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S44_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09730", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S45_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 36, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10028", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S46_BA38": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10679", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S47_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 60, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10723", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S48_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10833", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S49_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 57, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11864", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S50_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11931", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S51_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 30, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11989", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S52_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 31, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN12137", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S54_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 29, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN12457", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S55_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 56, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN13295", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S56_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 5, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN13872", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S57_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 24, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14757", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S58_BA20": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 9, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14762", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S59_BA38": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 26, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14829", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S5_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 69, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1340/94", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S60_BA20_37": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 32, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN15566", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S63_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17138", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S64_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 51, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17254", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S65_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17425", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S66_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 54, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17515", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S68_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 49, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17777", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S69_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 50, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN19442", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S71_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 28, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN19760", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S72_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 62, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP024/10", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S73_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 71, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP053/06", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S74_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 68, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP071/10", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S76_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 33, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP121/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S77_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 65, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP122/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S78_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP167/08", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S7_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 54, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A130/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S80_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP26/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S83_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP72/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S84_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 56, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP81/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S85_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 50, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP90/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S86_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 63, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP92/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S87_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 62, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP94/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S88_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP99/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S8_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A206/89", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S90_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 4, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1499", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S93_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 14, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1908", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S94_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 11, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4334", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S95_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 8, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4337", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S95_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 8, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4337", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S96_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 20, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4590", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S98_BA41_42": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 13, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4787", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S99_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 7, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4849", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }, 
+    "S9_BA41_42_22": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A246/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Temporal Cortex"
+    }
+  }
+}

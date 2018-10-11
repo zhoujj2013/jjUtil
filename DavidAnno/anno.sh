@@ -20,7 +20,8 @@ mkdir $prefix.david
 cd $prefix.david
 perl $Bin/../common/fishInWinter.pl $lst $Bin/$spe.genename2ensemblId.lst > $prefix.genename2ensemblId.lst
 cut -f 2 $prefix.genename2ensemblId.lst > $prefix.input
-echo "perl $Bin/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david up.input $prefix.genename2ensemblId.lst"
-perl $Bin/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david $prefix.input $prefix.genename2ensemblId.lst
+echo "perl $Bin/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_DIRECT,GOTERM_BP_FAT,GOTERM_CC_DIRECT,GOTERM_CC_FAT,GOTERM_MF_DIRECT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david up.input $prefix.genename2ensemblId.lst"
+perl $Bin/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_DIRECT,GOTERM_BP_FAT,GOTERM_CC_DIRECT,GOTERM_CC_FAT,GOTERM_MF_DIRECT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david $prefix.input $prefix.genename2ensemblId.lst
+#perl $Bin/david_anno_pipeline.pl ENSEMBL_GENE_ID GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,KEGG_PATHWAY,INTERPRO $prefix.david $prefix.input $prefix.genename2ensemblId.lst
 cd ..
 

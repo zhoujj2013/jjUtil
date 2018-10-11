@@ -1,7 +1,7 @@
 args <- commandArgs(TRUE)
-degF = args[1]
-nondegF = args[2]
-prefix = args[3]
+degF = args[1] # degs
+nondegF = args[2] # nondegs
+prefix = args[3] # prefix for the output
 
 yes<-read.table(degF,header=T)
 no<-read.table(nondegF,header=T)

@@ -6,7 +6,7 @@ use FindBin qw($Bin $Script);
 use File::Basename qw(basename dirname);
 use Data::Dumper;
 use lib "/home/zhoujj/my_lib/pm";
-use bioinfo;
+#use bioinfo;
 
 &usage if @ARGV<1;
 

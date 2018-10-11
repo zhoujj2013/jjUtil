@@ -3,6 +3,8 @@ prefix = args[1]
 boxwidth = as.numeric(args[2])
 plotwidth = as.numeric(args[3])
 plotheight = as.numeric(args[4])
+ystart = as.numeric(args[5])
+yend = as.numeric(args[6])
 # http://www.cyclismo.org/tutorial/R/index.html
 # input data format. per file, per feature
 # 1.20
@@ -16,7 +18,7 @@ plotheight = as.numeric(args[4])
 #svg(paste(prefix,".boxplot.svg",sep=""))
 
 # example
-# Rscript /x400ifs-accel/zhoujj/github/jjUtil/compareDisRNAseq/MultiBoxplotNoOutlineSize.r OnlyInSCs 0.5 4 6 OnlyInSCs.gene.expr:4:darkgray OnlyInSCs.gene.expr:5:white
+# Rscript /x400ifs-accel/zhoujj/github/jjUtil/compareDisRNAseq/MultiBoxplotNoOutlineSize.r OnlyInSCs 0.5 4 6 ystart yend OnlyInSCs.gene.expr:4:darkgray OnlyInSCs.gene.expr:5:white
 
 pdf(paste(prefix,".boxplot.pdf",sep=""), width = plotwidth, height = plotheight)
 par(mar=c(7,7,7,7))
@@ -26,7 +28,7 @@ d = data.frame()
 lcolor = c()
 llabels = c()
 
-for (i in 5:length(args)){
+for (i in 7:length(args)){
 	arg_element = unlist(strsplit(args[i],"[:]"))
 	
 	file = arg_element[1]
@@ -55,7 +57,7 @@ for (i in 5:length(args)){
 
 #boxplot(value~class, data=d)
 
-boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis=1.75, cex.lab=1.75, lwd=1.75, outline=F, bty="n")
+boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, boxwex=boxwidth, cex.axis=1.75, cex.lab=1.75, lwd=1.75, outline=F, bty="n", ylim=c(ystart,yend))
 axis(side = 2, lwd = 1.75, cex.axis = 1.75, labels=FALSE)
 box(col = 'black', lwd = 1.75)
 #boxplot(value~class, data= d, xaxt = "n",  xlab = "", col = lcolor, cex.axis=1.5, cex.lab=1.5, lwd=1.5, outline=F)

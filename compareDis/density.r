@@ -7,17 +7,11 @@ pdf(paste(prefix,".density.pdf",sep=""))
 color = rainbow(length(args) - 1)
 
 for (i in 2:length(args)){
-	arg_element = unlist(strsplit(args[i],"[:]"))
-	file = arg_element[1]
-	colnum = strtoi(arg_element[2])
-	lcolor = arg_element[3]
-	color = append(color, lcolor)
-	
-	dat = read.table(file,header=F,sep="\t")
+	dat = read.table(args[i],header=F)
 	if (i == 2) {
-		plot(density(dat[,colnum]), col=color[i-1], cex.axis=1.5, cex.lab=1.5, lwd=1.5)
+		plot(density(dat[,1]), col=color[i-1], cex.axis=1.5, cex.lab=1.5, lwd=1.5)
 	} else {
-		lines(density(dat[,colnum]), col=color[i-1], lwd=1.5)
+		lines(density(dat[,1]), col=color[i-1], lwd=1.5)
 	}
 }
 

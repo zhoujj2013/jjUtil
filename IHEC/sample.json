@@ -1,0 +1,5423 @@
+{
+  "datasets": {
+    "MS002004_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.6.1", 
+        "analysis_group": "McGill EMC", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "peak_calls": [
+          {
+            "big_data_url": "http://epigenomesportal.ca/public_data/release_6/McGill0020/MS002004.H3K27ac.peaks.bigBed", 
+            "md5sum": "af9bb09511678ee219305161bfac0091", 
+            "primary": true
+          }
+        ], 
+        "signal_unstranded": [
+          {
+            "big_data_url": "http://epigenomesportal.ca/public_data/release_6/McGill0020/MS002004.H3K27ac.signal.bigWig", 
+            "md5sum": "3c100bc97f13966c7c99c806b5e75372", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0001858", 
+        "experiment_type": "Histone H3K27ac"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "CEEHRC", 
+        "releasing_group": "McGill"
+      }, 
+      "other_attributes": {
+        "chip_antibody": "anti-H3K27ac", 
+        "chip_antibody_catalog": "pAB-196-050", 
+        "chip_antibody_lot": "A1723-0041D", 
+        "chip_antibody_provider": "Diagenode", 
+        "chip_protocol": "The fragmented chromatin samples are used for immunoprecipitations using the IP-Star (Diagenode) with validated histone antibodies. The immunoprecipitated chromatin pulldowns and inputs (without immunoprecipitation) are then reverse crosslinked, RNase treated, proteinase K treated and DNA recovered using silica-based purification columns (QIAgen). The purified samples are then quantified and profiled using the Agilent 2100 BioAnalyzer (Agilent Technologies). Libraries were prepared according to the Illumina TruSeq DNA protocols with adaptations for low amounts of material; changes includes PCR enrichment prior to Size Selection instead of after. The libraries get size selected between 200-400 bp using automated electrophoresis gels (SAGE Science). Completed libraries are checked on the Agilent 2100 BioAnalyzer (Agilent Technologies).", 
+        "chip_protocol_antibody_amount": "8ug", 
+        "chip_protocol_bead_amount": "32uL", 
+        "chip_protocol_bead_type": "Protein A beads (Diagenode)", 
+        "chip_protocol_chromatin_amount": "4 million cells", 
+        "chip_protocol_crosslink_time": "10 minutes", 
+        "extraction_protocol": "Samples are crosslinked with formaldehyde, quenched glycine and washed with PBS. The crosslinked samples are then sonicated using the waterbath-based Bioruptor (Diagenode) to create chromatin fragments containing 100-300 bp DNA fragments. The fragmented chromatin samples are then used for immunoprecipitations using the IP-Star (Diagenode) with validated histone antibodies. The immunoprecipitated chromatin pulldowns and inputs (without immunoprecipitation) are then reverse crosslinked, RNase treated, proteinase K treated and DNA recovered using silica-based purification columns (QIAgen). The purified samples are then quantified and profiled using the Agilent 2100 BioAnalyzer (Agilent Technologies).", 
+        "extraction_protocol_sonication_cycles": "NA", 
+        "extraction_protocol_type_of_sonicator": "Bioruptor (Diagenode)", 
+        "library_generation_fragment_size_range": "200-400 bp"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "MS002004"
+    }, 
+    "S100_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S100_VERMIS.bw", 
+            "md5sum": "1ba83c4f817c966a7d8040900d3edec9", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002263", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003188.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S100_VERMIS"
+    }, 
+    "S102_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S102_VERMIS.bw", 
+            "md5sum": "838a09879c2a15c5ac93c01b8ebbdabf", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002268", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003293.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S102_VERMIS"
+    }, 
+    "S103_BA9_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S103_BA9.bw", 
+            "md5sum": "8bb32441c0f2fc5c8b1946f1b66341af", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002270", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003324.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S103_BA9"
+    }, 
+    "S103_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S103_VERMIS.bw", 
+            "md5sum": "b51c6fb5f560184431c3c3eaba64bb68", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002271", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003228.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S103_VERMIS"
+    }, 
+    "S104_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S104_VERMIS.bw", 
+            "md5sum": "60cacaca6c45e9b444cd7c1de2802ea7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002273", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003245.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "29"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S104_VERMIS"
+    }, 
+    "S105_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S105_VERMIS.bw", 
+            "md5sum": "dfa2dd91c787348a34a85afbb8bcf4ba", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002274", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003355.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "3"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S105_VERMIS"
+    }, 
+    "S106_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S106_VERMIS.bw", 
+            "md5sum": "0e400d8ee201cb7ad3e095f59116c2c4", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002275", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003359.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "12"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S106_VERMIS"
+    }, 
+    "S107_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S107_CB.bw", 
+            "md5sum": "577fd3aacb83221b52e70f03ae7dd86e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002277", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003121.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "11"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S107_CB"
+    }, 
+    "S108_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S108_VERMIS.bw", 
+            "md5sum": "8f4595add539b04d2b9a8c0a4def4709", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002282", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003282.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "18"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S108_VERMIS"
+    }, 
+    "S109_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S109_VERMIS.bw", 
+            "md5sum": "618e246ff5e45b81067ec1aa0f7939a0", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002283", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003146.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "9"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S109_VERMIS"
+    }, 
+    "S10_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S10_CB.bw", 
+            "md5sum": "6cfde4c8be1a2fb52453df95c97f4e57", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002040", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003157.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S10_CB"
+    }, 
+    "S110_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S110_VERMIS.bw", 
+            "md5sum": "f5c31746e6b2325f9ca6f93625aee82e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002289", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003383.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "50"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S110_VERMIS"
+    }, 
+    "S111_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S111_VERMIS.bw", 
+            "md5sum": "ccea6f762ce5d8aecc27c0cc82f8366e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002292", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003268.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S111_VERMIS"
+    }, 
+    "S113_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S113_VERMIS.bw", 
+            "md5sum": "9ca8417c892e3b3c9193b727447c444a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002296", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003222.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S113_VERMIS"
+    }, 
+    "S115_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S115_VERMIS.bw", 
+            "md5sum": "3bcf91f4c8dbee46ae0b5a78e8e13161", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002300", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003316.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S115_VERMIS"
+    }, 
+    "S116_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S116_VERMIS.bw", 
+            "md5sum": "1008d854a10e2ad61fe38a86bc7264b4", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002302", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003312.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S116_VERMIS"
+    }, 
+    "S117_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S117_VERMIS.bw", 
+            "md5sum": "c40184864b40cd012bf301ee373ce151", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002303", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003193.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "12"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S117_VERMIS"
+    }, 
+    "S11_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S11_CB.bw", 
+            "md5sum": "ccf410bf3c196bc6092db9eb50f0ee96", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002043", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003314.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S11_CB"
+    }, 
+    "S12_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S12_CB.bw", 
+            "md5sum": "dfae349d7985ea7b4383b93c262f365a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002045", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003164.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "43"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S12_CB"
+    }, 
+    "S13_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S13_CB.bw", 
+            "md5sum": "9485d2f8f072ca7411f72a0d49aaf2ee", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002048", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003326.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24.6"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S13_CB"
+    }, 
+    "S14_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S14_CB.bw", 
+            "md5sum": "303b6958ccdb0f32398cf611229acf97", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002050", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003155.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "8.3"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S14_CB"
+    }, 
+    "S16_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S16_CB.bw", 
+            "md5sum": "d46fcb89915925413a337b8c5ecf861e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002054", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003330.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.7"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S16_CB"
+    }, 
+    "S19_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S19_VERMIS.bw", 
+            "md5sum": "3f1d40a38fc4452e1b65fa1935a020bd", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002058", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003260.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27.17"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S19_VERMIS"
+    }, 
+    "S1_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S1_CB.bw", 
+            "md5sum": "dc83fa9027c9bfbc1e62bed478546517", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002019", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003172.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S1_CB"
+    }, 
+    "S20_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S20_CB.bw", 
+            "md5sum": "dcac5b9fde2aa2d120b0b1d1995c33c0", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002062", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003328.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "6.75"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S20_CB"
+    }, 
+    "S21_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S21_VERMIS.bw", 
+            "md5sum": "7ebc138afb8f003699f7a997ad1544be", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002064", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003317.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "31.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S21_VERMIS"
+    }, 
+    "S23_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S23_VERMIS.bw", 
+            "md5sum": "a9e7f5250f841ccb9486c6d7a39b7030", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002068", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003352.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "18.58"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S23_VERMIS"
+    }, 
+    "S24_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S24_CB.bw", 
+            "md5sum": "fc4cb891afa9c7d8e94163a42f7f1d92", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002071", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003321.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "4"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S24_CB"
+    }, 
+    "S25_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S25_CB.bw", 
+            "md5sum": "7f46874cde185e05b32625ed5a85061b", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002075", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003347.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.08"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S25_CB"
+    }, 
+    "S26_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S26_VERMIS.bw", 
+            "md5sum": "09d9cf04658ac042a9d5feb4174e2c6d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002078", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003144.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.08"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S26_VERMIS"
+    }, 
+    "S28_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S28_VERMIS.bw", 
+            "md5sum": "2ffacdefc274397752c0ef87e9d35045", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002082", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003201.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.23"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S28_VERMIS"
+    }, 
+    "S29_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S29_VERMIS.bw", 
+            "md5sum": "b0ac483ba20f02e381c26c304158c66d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002085", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003304.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "36.36"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S29_VERMIS"
+    }, 
+    "S30_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S30_CB.bw", 
+            "md5sum": "c613d94beed1d22dc10764fe5dcf0fcc", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002086", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003115.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "12.65"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S30_CB"
+    }, 
+    "S31_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S31_VERMIS.bw", 
+            "md5sum": "647d97fd7799cd8b4a7ad5c926e16e33", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002089", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003258.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17.7"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S31_VERMIS"
+    }, 
+    "S32_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S32_VERMIS.bw", 
+            "md5sum": "0c63612e5ce524d4d9de5826f368935c", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002091", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003367.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13.95"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S32_VERMIS"
+    }, 
+    "S33_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S33_CB.bw", 
+            "md5sum": "15a0eba75badee59c98a2a6b90266abb", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002093", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003132.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "29"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S33_CB"
+    }, 
+    "S35_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S35_VERMIS.bw", 
+            "md5sum": "c57dd37ccba775db28ebc991a6149c87", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002097", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003271.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "30.75"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S35_VERMIS"
+    }, 
+    "S37_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S37_VERMIS.bw", 
+            "md5sum": "dc1222ebd38ab1740b139fcadc2dbaaf", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002103", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003112.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "23.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S37_VERMIS"
+    }, 
+    "S38_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S38_VERMIS.bw", 
+            "md5sum": "66a649d4baac99c40718dca32c1a8962", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002106", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003371.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "43.25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S38_VERMIS"
+    }, 
+    "S3_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S3_CB.bw", 
+            "md5sum": "17bc49583ef941610fbcb5351b60fda1", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002024", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003239.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S3_CB"
+    }, 
+    "S40_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S40_CB.bw", 
+            "md5sum": "5e443d0a0d36fb6c6319cb94fadf24c3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002111", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003190.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20.3"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S40_CB"
+    }, 
+    "S41_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S41_VERMIS.bw", 
+            "md5sum": "d841a67890c9110c4029bec5e512c476", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002114", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003136.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "25.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S41_VERMIS"
+    }, 
+    "S42_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S42_VERMIS.bw", 
+            "md5sum": "f711570ba8fb745de919c3747555ede1", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002117", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003287.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "10.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S42_VERMIS"
+    }, 
+    "S43_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S43_VERMIS.bw", 
+            "md5sum": "958b7fe1461d794b3d778fe16281e30d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002120", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003350.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26.5"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S43_VERMIS"
+    }, 
+    "S44_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S44_VERMIS.bw", 
+            "md5sum": "5667cd2d85b882fb01ed8a5c863ee817", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002122", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003334.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S44_VERMIS"
+    }, 
+    "S45_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S45_CB.bw", 
+            "md5sum": "7fda9bb7fcdd29f6cb4fbee51e749226", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002126", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003232.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.46"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S45_CB"
+    }, 
+    "S46_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S46_VERMIS.bw", 
+            "md5sum": "6640b07529a63de748a31327845c94b7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002129", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003243.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "14"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S46_VERMIS"
+    }, 
+    "S48_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S48_VERMIS.bw", 
+            "md5sum": "deb9aa7506a4d92ea0d548ef668f4e2b", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002133", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003133.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.47"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S48_VERMIS"
+    }, 
+    "S49_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S49_VERMIS.bw", 
+            "md5sum": "0fefbbca75eeda106e240052465be6b7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002137", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003338.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S49_VERMIS"
+    }, 
+    "S4_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S4_CB.bw", 
+            "md5sum": "a341fa517052dd2f81e7bb6cb92ea44e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002026", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003315.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S4_CB"
+    }, 
+    "S50_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S50_VERMIS.bw", 
+            "md5sum": "39d21397376da39806c03f6c001e6337", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002139", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003192.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S50_VERMIS"
+    }, 
+    "S51_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S51_VERMIS.bw", 
+            "md5sum": "3cb96806ae88b486d10845d30464331e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002143", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003332.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16.06"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S51_VERMIS"
+    }, 
+    "S52_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S52_VERMIS.bw", 
+            "md5sum": "ecd3d9190a9feedcf17f2c9365964db7", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002146", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003110.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32.92"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S52_VERMIS"
+    }, 
+    "S53_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S53_CB.bw", 
+            "md5sum": "1efabf39bf208247f4152ccb8829b113", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002148", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003262.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "4.75"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S53_CB"
+    }, 
+    "S54_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S54_VERMIS.bw", 
+            "md5sum": "c560711699e7d2743f7af3c4c0ab7020", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002150", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003269.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17.83"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S54_VERMIS"
+    }, 
+    "S55_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S55_VERMIS.bw", 
+            "md5sum": "fc87eda2ae2d09f446ef2bca7205a600", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002153", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003180.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.12"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S55_VERMIS"
+    }, 
+    "S56_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S56_VERMIS.bw", 
+            "md5sum": "bb1f54b9e2842a8e3f891d1111f8d345", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002154", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003386.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S56_VERMIS"
+    }, 
+    "S57_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S57_VERMIS.bw", 
+            "md5sum": "3c4707ba49b63fc1e9fc634b764a4170", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002157", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003297.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S57_VERMIS"
+    }, 
+    "S58_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S58_VERMIS.bw", 
+            "md5sum": "31ae40777ea62d71ce232c1bbaf0ef43", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002159", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003353.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13.63"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S58_VERMIS"
+    }, 
+    "S59_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S59_VERMIS.bw", 
+            "md5sum": "a5ddd3aec80634e746a07df97b66da9f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002163", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003134.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.67"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S59_VERMIS"
+    }, 
+    "S5_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S5_VERMIS.bw", 
+            "md5sum": "7c8a99bfce11ab248d1dac83b662f1f3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002029", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003213.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S5_VERMIS"
+    }, 
+    "S60_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S60_VERMIS.bw", 
+            "md5sum": "0173fa051a60d8de9844c7cedd7cc104", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002166", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003393.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.92"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S60_VERMIS"
+    }, 
+    "S61_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S61_VERMIS.bw", 
+            "md5sum": "4b0733042e1a055ddf419df7d4dd47e1", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002169", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003185.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "12.88"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S61_VERMIS"
+    }, 
+    "S62_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S62_VERMIS.bw", 
+            "md5sum": "2d224a7bae62a1d8ca2b5f577691ce35", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002171", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003250.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "27"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S62_VERMIS"
+    }, 
+    "S63_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S63_VERMIS.bw", 
+            "md5sum": "fda5d52c01e6b7463763a20d563f16c4", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002173", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003344.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "NA"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S63_VERMIS"
+    }, 
+    "S64_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S64_VERMIS.bw", 
+            "md5sum": "c003843d678ed0091ecc5ae3f4968b49", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002176", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003150.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S64_VERMIS"
+    }, 
+    "S65_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S65_VERMIS.bw", 
+            "md5sum": "5947876e375f0c04ead60466e67f9d5e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002179", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003202.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "26.16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S65_VERMIS"
+    }, 
+    "S66_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S66_VERMIS.bw", 
+            "md5sum": "bd82084f0eeacb8e185723c9f49bc35b", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002183", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003305.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "28.25"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S66_VERMIS"
+    }, 
+    "S67_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S67_VERMIS.bw", 
+            "md5sum": "f90e1080d907d09544a11417b63439f2", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002184", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003364.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "NA"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S67_VERMIS"
+    }, 
+    "S68_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S68_VERMIS.bw", 
+            "md5sum": "20d834b438048fd83d29f1df4c533cfa", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002187", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003230.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16.33"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S68_VERMIS"
+    }, 
+    "S69_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S69_VERMIS.bw", 
+            "md5sum": "94a75985ab4a222d017e5dee67d04128", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002190", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003154.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20.4"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S69_VERMIS"
+    }, 
+    "S70_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S70_CB.bw", 
+            "md5sum": "33c3e7686d959063941e89fb2cfcd6dd", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002193", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003351.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Autism Tissue Program brian bank at Harvard", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22.2"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S70_CB"
+    }, 
+    "S74_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S74_CB.bw", 
+            "md5sum": "8896387a82f891a09cf85019d8cd285f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002202", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003261.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S74_CB"
+    }, 
+    "S75_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S75_CB.bw", 
+            "md5sum": "c963eb43516380cc085e4d3f547e7009", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002204", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003277.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S75_CB"
+    }, 
+    "S77_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S77_CB.bw", 
+            "md5sum": "49fd587a5add38d7325c0b33fd6c8d0a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002209", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003313.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S77_CB"
+    }, 
+    "S78_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S78_CB.bw", 
+            "md5sum": "5b652a8f37f4596e35967495951bdaae", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002212", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003179.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S78_CB"
+    }, 
+    "S79_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S79_CB.bw", 
+            "md5sum": "6e79a3ca31fcdc005800ecb34adcbbec", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002214", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003153.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S79_CB"
+    }, 
+    "S7_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S7_CB.bw", 
+            "md5sum": "d9f692207d56303fee48babfb8a3a8ee", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002032", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003388.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "31"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S7_CB"
+    }, 
+    "S80_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S80_CB.bw", 
+            "md5sum": "4a9db084788e2d39e4caf74cf0965ae3", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002216", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003248.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S80_CB"
+    }, 
+    "S81_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S81_CB.bw", 
+            "md5sum": "899d372a0804a9473b8dc0d0928d59f5", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002218", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003343.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "NA"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S81_CB"
+    }, 
+    "S82_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S82_CB.bw", 
+            "md5sum": "ac059f8abf51eb9b947d9e3f7a604fce", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002219", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003272.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S82_CB"
+    }, 
+    "S83_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S83_CB.bw", 
+            "md5sum": "20486f1c4b9059ef5b27b649482f850e", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002220", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003299.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S83_CB"
+    }, 
+    "S85_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S85_CB.bw", 
+            "md5sum": "840c631b563baf998a1b77e54cd5ac81", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002226", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003126.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "72"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S85_CB"
+    }, 
+    "S86_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S86_CB.bw", 
+            "md5sum": "7af5758841f98dbdcf0866469eb0386c", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002230", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003280.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S86_CB"
+    }, 
+    "S87_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S87_CB.bw", 
+            "md5sum": "85d7d8ec54c3d121c1ec931cabdf02ba", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002233", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003335.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "24"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S87_CB"
+    }, 
+    "S88_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S88_CB.bw", 
+            "md5sum": "ffa905673a43e935a0e8d16b38a731c8", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002236", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003159.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "Oxford Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "48"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S88_CB"
+    }, 
+    "S89_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S89_VERMIS.bw", 
+            "md5sum": "921388636b0188f5a9710c6e61fd744d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002237", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003135.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "12"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S89_VERMIS"
+    }, 
+    "S8_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S8_CB.bw", 
+            "md5sum": "a04bd5eeba00e7065aaafa535ff4225d", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002034", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003226.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "45"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S8_CB"
+    }, 
+    "S90_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S90_VERMIS.bw", 
+            "md5sum": "99831f83eeacf7f7f074d89fed79f1f8", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002239", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003285.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "21"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S90_VERMIS"
+    }, 
+    "S91_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S91_VERMIS.bw", 
+            "md5sum": "f0edff3b93137c90725ef57639b84298", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002242", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003369.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S91_VERMIS"
+    }, 
+    "S92_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S92_VERMIS.bw", 
+            "md5sum": "5fd81a1dd1e7ea483daa3ea7f29e53d9", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002243", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003348.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "22"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S92_VERMIS"
+    }, 
+    "S93_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S93_VERMIS.bw", 
+            "md5sum": "c332908befa7de36c8cd0380f1ea2cd0", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002245", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003235.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "13"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S93_VERMIS"
+    }, 
+    "S95_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S95_VERMIS.bw", 
+            "md5sum": "610bdadb06a024319ffaabb6e89ec115", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002252", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003183.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "16"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S95_VERMIS"
+    }, 
+    "S97_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S97_VERMIS.bw", 
+            "md5sum": "2f43813129dbaacbda5625769ef5672f", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002255", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003378.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "17"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S97_VERMIS"
+    }, 
+    "S98_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S98_VERMIS.bw", 
+            "md5sum": "6ba6ac3f448f3da18dfc67117046b3d9", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002257", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003127.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "15"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S98_VERMIS"
+    }, 
+    "S99_VERMIS_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S99_VERMIS.bw", 
+            "md5sum": "0972d4ee6d49b87de0a16361da73a31a", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002259", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003194.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "NICHD brain bank", 
+        "brain_region": "VERMIS", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "20"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S99_VERMIS"
+    }, 
+    "S9_CB_H3K27ac": {
+      "analysis_attributes": {
+        "alignment_software": "BWA", 
+        "alignment_software_version": "0.7.5a", 
+        "analysis_group": "GIS", 
+        "analysis_software": "NA", 
+        "analysis_software_version": "NA"
+      }, 
+      "browser": {
+        "signal_unstranded": [
+          {
+            "big_data_url": "S9_CB.bw", 
+            "md5sum": "24f5f750e27a92b40e4f4046c0d47aba", 
+            "primary": true
+          }
+        ]
+      }, 
+      "experiment_attributes": {
+        "experiment_ontology_uri": "http://purl.obolibrary.org/obo/OBI_0002038", 
+        "experiment_type": "Histone H3K27ac", 
+        "reference_registry_id": "IHECRE00003319.1"
+      }, 
+      "ihec_data_portal": {
+        "assay": "H3K27ac", 
+        "assay_category": "Histone Modifications", 
+        "cell_type": "cerebellum", 
+        "cell_type_category": "Other", 
+        "publishing_group": "GIS", 
+        "releasing_group": "GIS"
+      }, 
+      "other_attributes": {
+        "brain_bank": "London Neurodegenerative Disease Brain Bank", 
+        "brain_region": "CB", 
+        "collection_method": "Post Mortem", 
+        "post_mortem_interval": "32"
+      }, 
+      "raw_data_url": null, 
+      "sample_id": "S9_CB"
+    }
+  }, 
+  "hub_description": {
+    "assembly": "hg19", 
+    "date": "2017-09-28", 
+    "description": "Data hub generated by the IHEC Data Portal, with the following parameters: {'session': '4783'}", 
+    "email": "info@epigenomesportal.ca", 
+    "publishing_group": "Other", 
+    "releasing_group": "Other", 
+    "taxon_id": 9606
+  }, 
+  "samples": {
+    "MS002004": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "Healthy", 
+      "disease_ontology_uri": "http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C115935&ns=NCI_Thesaurus", 
+      "donor_age": 42, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "McGill0020", 
+      "donor_life_stage": "unknown", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002037", 
+      "tissue_depot": "brain", 
+      "tissue_depot_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_type": "cerebellum", 
+      "tissue_type_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002037"
+    }, 
+    "S100_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 20, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4999", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S102_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 37, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5027", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S103_BA9": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 33, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5079", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S103_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 33, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5079", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S104_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 46, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5115", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S105_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 7, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5144", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S106_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5163", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S107_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5168", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S108_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5176", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S109_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5242", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S10_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 40, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A247/92", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S110_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 33, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5297", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S111_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5302", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S113_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 4, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5308", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S115_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 53, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5340", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S116_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 23, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5342", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S117_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 14, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB5391", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S11_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 37, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A268/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S12_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 43, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A292/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S13_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN00142", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S14_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 27, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN00493", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S16_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN00764", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S19_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01410", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S1_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 59, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1054/97", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S20_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 18, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01570", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S21_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN01971", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S23_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 19, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03217", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S24_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 2, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03345", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S25_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 49, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03632", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S26_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 19, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN03935", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S28_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN04682", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S29_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 24, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN05983", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S30_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 81, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06133", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S31_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 10, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06365", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S32_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06420", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S33_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 68, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN06875", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S35_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 17, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN07444", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S37_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 36, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08161", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S38_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 28, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08166", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S3_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 64, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1127/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S40_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 30, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08792", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S41_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 5, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN08873", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S42_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 11, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09402", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S43_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 60, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09714", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S44_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN09730", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S45_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 36, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10028", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S46_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10679", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S48_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN10833", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S49_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 57, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11864", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S4_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 70, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1148/98", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S50_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 39, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11931", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S51_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 30, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN11989", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S52_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 31, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN12137", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S53_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 51, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN12240", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S54_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 29, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN12457", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S55_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 56, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN13295", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S56_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 5, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN13872", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S57_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 24, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14757", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S58_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 9, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14762", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S59_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 26, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN14829", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S5_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 69, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "1340/94", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S60_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 32, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN15566", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S61_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 11, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN16115", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S62_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 9, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN16641", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S63_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder;Chromosome 15q Duplication Syndrome", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17138", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S64_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 51, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17254", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S65_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 16, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17425", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S66_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 54, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17515", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S67_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 11, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17678", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S68_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 49, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN17777", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S69_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 50, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN19442", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S70_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 8, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "AN19511", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S74_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 68, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP071/10", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S75_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 71, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP115/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S77_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 65, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP122/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S78_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP167/08", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S79_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 71, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP168/08", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S7_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 54, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A130/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S80_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP26/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S81_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 14, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP27/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S82_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 44, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP56/10", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S83_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 15, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP72/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S85_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 50, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP90/09", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S86_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 63, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP92/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S87_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 62, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP94/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S88_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "NP99/11", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S89_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 37, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1376", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S8_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 22, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A206/89", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S90_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 4, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1499", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Female", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S91_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 53, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1578", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S92_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 12, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1714", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S93_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 14, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB1908", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S95_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 8, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4337", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S97_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 4, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4670", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S98_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 13, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4787", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S99_VERMIS": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "autism spectrum disorder", 
+      "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0003756", 
+      "donor_age": 7, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "UMB4849", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }, 
+    "S9_CB": {
+      "biomaterial_type": "Primary Tissue", 
+      "disease": "none", 
+      "disease_ontology_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115935", 
+      "donor_age": 41, 
+      "donor_age_unit": "year", 
+      "donor_ethnicity": "NA", 
+      "donor_health_status": "NA", 
+      "donor_id": "A246/93", 
+      "donor_life_stage": "adult", 
+      "donor_sex": "Male", 
+      "molecule": "genomic DNA", 
+      "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0000955", 
+      "tissue_depot": "brain", 
+      "tissue_type": "Cerebellum"
+    }
+  }
+}

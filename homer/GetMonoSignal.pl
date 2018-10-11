@@ -27,7 +27,7 @@ my $prefix = shift @ARGV;
 my $str = join " ", @ARGV;
 $str = " $str ";
 
-`annotatePeaks.pl $region mm9 -size $extend -hist $bin -d $str > $prefix.txt`;
+`annotatePeaks.pl $region mm9 -size $extend -hist $bin -d $str -norm 1e6 > $prefix.txt`;
 `grep -v "^Distance" $prefix.txt > $prefix.rm.header.txt`;
 
 
