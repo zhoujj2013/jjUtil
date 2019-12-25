@@ -30,7 +30,7 @@ y1 = log10(nondegs[,2]+1)
 
 
 
-pdf(file="scatterplot.pdf")
+pdf(file=paste(expr,"scatterplot.pdf",sep="."))
 par(mar=c(6, 6, 5, 5))
 plot(x1,y1,xlab=paste(colnames(dat)[1]," log10(",type,")",sep=""), ylab=paste(colnames(dat)[2]," log10(",type,")",sep=""), col="black", cex=1,cex.axis=2,cex.lab=2, xlim=c(0,max(tmp)+0.5), ylim=c(0,max(tmp)+0.5))
 points(x2,y2,pch=6,col="red")

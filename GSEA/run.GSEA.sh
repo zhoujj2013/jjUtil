@@ -9,7 +9,7 @@ if [ $# -lt 2 ];then
 	exit;
 fi
 
-gsea=/x400ifs-accel/zhoujj/software/gsea2-2.2.1.jar
+gsea=/home/zhoujj/software/gsea2-2.2.1.jar
 expr=$1
 prefix=$2
 

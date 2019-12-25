@@ -34,6 +34,7 @@ print("# Data summary")
 summary(m1[,1])
 #m1<- log10(m1)
 #summary(m1[,1])
+
 min(m1)
 max(m1)
 
@@ -43,3 +44,4 @@ library("gplots")
 pdf(paste(prefix,".all.sample.heatmap.pdf",sep=""))
 heatmap.2(dat_matrix,trace="none",hclustfun = hclust,dendrogram="column", margins = c(8, 8), keysize = 1.5, symkey=FALSE, density.info="none", Rowv=F,Colv=T, scale="row")
 dev.off()
+

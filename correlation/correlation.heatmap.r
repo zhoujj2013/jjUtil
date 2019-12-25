@@ -18,7 +18,7 @@ pdf(file = paste(Matrix_f,".pdf",sep=""))
 #heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,2), notecol="black", notecex=0.5)
 #heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cellnote=round(dat_matrix,1), notecex=0.2, notecol="black", cexRow = 0.2, cexCol=0.2)
 
-heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cexRow = 0.1, cexCol=0.1, cellnote=round(dat_matrix,1), notecex=0.1, notecol="black")
+heatmap.2(dat_matrix,trace="none", dendrogram="both", col=rev(redblue(100)), margins = c(8, 8), keysize = 1, symkey=FALSE, density.info="none", Rowv=T,Colv=T, cexRow = 1, cexCol=1, cellnote=round(dat_matrix,1), notecex=0.1, notecol="black")
 
 write.table(dat_matrix,file=paste(Matrix_f,".tab",sep=""), quote=FALSE, sep = "\t", row.names = TRUE, col.names = FALSE)
 # plan 2

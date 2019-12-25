@@ -28,7 +28,7 @@ cat header.txt $prefix.gene_exp.diff.deg.up.tmp > $prefix.gene_exp.diff.deg.up
 cat header.txt $prefix.gene_exp.diff.deg.down.tmp > $prefix.gene_exp.diff.deg.down
 
 if [ ! -f ./$spe.ensemblId2genename.lst ]; then 
-perl $Bin/get_ensembl_id_map.pl $spe > $spe.ensemblId2genename.lst
+perl $Bin/DEGsAnalysis/get_ensembl_id_map.pl $spe > $spe.ensemblId2genename.lst
 awk '{print $2"\t"$1}' $spe.ensemblId2genename.lst >  $spe.genename2ensemblId.lst 
 fi
 
